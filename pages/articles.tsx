@@ -1,0 +1,76 @@
+import { useEffect, useRef, useState } from "react";
+import styled from "styled-components";
+
+// Components
+import MediumCard from "../components/card/MediumCard";
+import { Container } from "../components/global";
+
+type ArticleType = {
+  title: string;
+  pubDate: string;
+  link: string;
+  author: string;
+  description: string;
+  content: string;
+  thumbnail: string;
+};
+
+const Article = () => {
+  const [articles, setArticles] = useState<ArticleType[]>([]);
+  const [search, setSearch] = useState("");
+
+  const mediumURL =
+    "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/dsc-vit-bhopal";
+
+  useEffect(() => {
+    fetch(mediumURL)
+      .then((res) => res.json())
+      .then((data) => {
+        setArticles(data.items);
+      });
+  }, []);
+
+  return (
+    <ContainerStyled>
+      <Search
+        placeholder="Search article or author"
+        value={search}
+        onChange={(e) => setSearch(e.target.value)}
+      />
+      {articles
+        .filter(({ title, author }) =>
+          search !== ""
+            ? title.toLowerCase().includes(search.toLowerCase()) ||
+              author.toLowerCase().includes(search.toLowerCase())
+            : true
+        )
+        .map((article) => (
+          <MediumCard key={article.pubDate} {...article} />
+        ))}
+    </ContainerStyled>
+  );
+};
+
+const Search = styled.input`
+  background: ${(p) => p.theme.color.background};
+  color: ${(p) => p.theme.color.text};
+  width: 100%;
+  font-size: 25px;
+  outline: none;
+  border: 1px solid ${(p) => p.theme.color.border};
+  border-radius: 5px;
+  box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.03);
+  margin-bottom: 2rem;
+  line-height: 35px;
+  padding: 20px;
+  font-weight: 500;
+  &::placeholder {
+    color: ${(p) => p.theme.color.placeholder};
+  }
+`;
+
+const ContainerStyled = styled(Container)`
+  padding-top: 2.5rem;
+`;
+
+export default Article;
