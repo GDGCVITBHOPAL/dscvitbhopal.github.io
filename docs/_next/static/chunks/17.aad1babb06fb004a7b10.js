@@ -1,0 +1,1 @@
+(window.webpackJsonp_N_E=window.webpackJsonp_N_E||[]).push([[17],{OTzg:function(a){a.exports=JSON.parse('{"badges":[{"id":"1","badge":"/images/badges/1.png","name":"Chaitanya Sapre"},{"id":"2","badge":"/images/badges/2.png","name":"Tejani Shubham"},{"id":"3","badge":"/images/badges/3.png","name":"Chinmay Muley"}]}')}}]);
