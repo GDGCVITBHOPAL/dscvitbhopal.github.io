@@ -66,6 +66,9 @@ const Info = styled.div`
   max-width: 55rem;
   margin-bottom: 3rem;
   margin-top: 1rem;
+  @media (max-width: ${(props) => props.theme.screen.md}) {
+    text-align: left;
+  }
 `;
 
 const Button = styled.div`

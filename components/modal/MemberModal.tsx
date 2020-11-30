@@ -111,6 +111,10 @@ const Flex = styled.div`
 `;
 
 const Icon = styled.div`
+  background: #ffffff;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  border-radius: 50%;
   font-size: 25px;
   margin: 1rem;
   display: flex;

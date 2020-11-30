@@ -55,4 +55,7 @@ const Info = styled.div`
   font-size: 18px;
   text-align: center;
   line-height: 40px;
+  @media (max-width: ${(props) => props.theme.screen.md}) {
+    text-align: left;
+  }
 `;

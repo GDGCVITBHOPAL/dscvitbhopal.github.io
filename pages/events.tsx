@@ -50,6 +50,7 @@ const Search = styled.input`
   background: ${(p) => p.theme.color.background};
   color: ${(p) => p.theme.color.text};
   width: 100%;
+  max-width: 45rem;
   font-size: 25px;
   outline: none;
   border: 1px solid ${(p) => p.theme.color.border};
@@ -58,14 +59,18 @@ const Search = styled.input`
   margin-bottom: 2rem;
   line-height: 35px;
   padding: 20px;
-  font-weight: 500;
+  font-weight: 700;
   &::placeholder {
     color: ${(p) => p.theme.color.placeholder};
+    font-weight: 500;
   }
 `;
 
 const ContainerStyled = styled(Container)`
   padding-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 `;
 
 export default Event;

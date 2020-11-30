@@ -37,7 +37,6 @@ const Card = styled.div`
   max-width: 45rem;
   padding: 2rem;
   box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.03);
-  margin: 0 auto;
   margin-bottom: 4rem;
   a {
     text-decoration: none;

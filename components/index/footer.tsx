@@ -7,6 +7,7 @@ import {
   SiInstagram,
   SiLinkedin,
   SiYoutube,
+  SiMedium,
 } from "react-icons/si";
 import styled from "styled-components";
 
@@ -18,6 +19,11 @@ const Footer = () => (
       <TextGroup>
         <Title>Stay updated</Title>
         <Flex>
+          <a href="https://medium.com/dsc-vit-bhopal" target="_blank">
+            <Icon>
+              <SiMedium color="#000" />
+            </Icon>
+          </a>
           <a href="https://www.facebook.com/dscvitbhopal" target="_blank">
             <Icon>
               <SiFacebook color="#3b5999" />
@@ -93,7 +99,7 @@ const Title = styled.div`
 
 const Flex = styled.div`
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-gap: 2rem;
   margin: 80px auto;
   @media (max-width: ${(props) => props.theme.screen.md}) {

@@ -9,7 +9,7 @@ const EventCard = ({ date = "", link = "", title = "", content = "" }) => {
     <Card>
       <a href={link} rel="noreferrer" target="_blank">
         <Title>{ShortenText(title, 0, 50)}</Title>
-        <SubTitle>{ShortenText(ToText(content), 0, 120) + "..."}</SubTitle>
+        <SubTitle>{ShortenText(ToText(content), 0, 140) + "..."}</SubTitle>
         <Author>{date}</Author>
       </a>
     </Card>
@@ -23,7 +23,6 @@ const Card = styled.div`
   max-width: 45rem;
   padding: 2rem;
   box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.03);
-  margin: 0 auto;
   margin-bottom: 2rem;
   a {
     text-decoration: none;

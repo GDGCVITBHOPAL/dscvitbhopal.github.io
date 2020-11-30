@@ -3,13 +3,17 @@ import Link from "next/link";
 import styled from "styled-components";
 
 const BadgeCard = ({ badge = "", name = "", id = "" }) => {
-  return (
+  return badge ? (
     <Link href={`badges/${id}`}>
       <Card>
         <Image src={badge} />
         <Name>{name}</Name>
       </Card>
     </Link>
+  ) : (
+    <Card>
+      <Name>{name}</Name>
+    </Card>
   );
 };
 
