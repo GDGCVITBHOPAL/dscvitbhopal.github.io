@@ -1,5 +1,6 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import styled from "styled-components";
+import Head from "next/head";
 
 // Components
 import { Container } from "../components/global";
@@ -20,12 +21,17 @@ type BadgesData = {
 const Badges = () => {
   const [badges, setBadges] = useState<Badge[]>([]);
 
-  import("../data/badges.json").then((data: BadgesData) => {
-    setBadges(data.default.badges);
-  });
+  useEffect(() => {
+    import("../data/badges.json").then((data: BadgesData) => {
+      setBadges(data.default.badges);
+    });
+  }, []);
 
   return (
     <ContainerStyled>
+      <Head>
+        <title>DSC VIT Bhopal - Badges</title>
+      </Head>
       {badges.map((badge) => (
         <BadgeCard key={badge.id} {...badge} />
       ))}

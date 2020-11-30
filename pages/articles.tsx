@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import styled from "styled-components";
+import Head from "next/head";
 
 // Components
 import MediumCard from "../components/card/MediumCard";
@@ -32,6 +33,9 @@ const Article = () => {
 
   return (
     <ContainerStyled>
+      <Head>
+        <title>DSC VIT Bhopal - Articles</title>
+      </Head>
       <Search
         placeholder="Search article or author"
         value={search}

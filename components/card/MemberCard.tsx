@@ -20,6 +20,7 @@ const Card = styled.div`
   padding: 2rem;
   box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.03);
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
 `;
 
 const Image = styled.img`

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import styled from "styled-components";
+import Head from "next/head";
 
 // Components
 import { Container } from "../components/global";
@@ -34,6 +35,9 @@ const Team = () => {
 
   return (
     <ContainerStyled>
+      <Head>
+        <title>DSC VIT Bhopal - Team</title>
+      </Head>
       {modalMember && (
         <MemberModal
           member={modalMember}

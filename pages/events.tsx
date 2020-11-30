@@ -1,5 +1,6 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import styled from "styled-components";
+import Head from "next/head";
 
 // Components
 import { Container } from "../components/global";
@@ -22,12 +23,17 @@ const Event = () => {
   const [events, setEvents] = useState<Event[]>([]);
   const [search, setSearch] = useState("");
 
-  import("../data/events.json").then((data: EventData) => {
-    setEvents(data.default.events);
-  });
+  useEffect(() => {
+    import("../data/events.json").then((data: EventData) => {
+      setEvents(data.default.events);
+    });
+  }, []);
 
   return (
     <ContainerStyled>
+      <Head>
+        <title>DSC VIT Bhopal - Events</title>
+      </Head>
       <Search
         placeholder="Search event"
         value={search}

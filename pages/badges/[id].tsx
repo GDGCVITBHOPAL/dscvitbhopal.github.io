@@ -1,13 +1,35 @@
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import styled from "styled-components";
 
+type BadgeType = {
+  id?: string;
+  name?: string;
+  badge?: string;
+};
+
+type BadgesData = {
+  default: {
+    badges: BadgeType[];
+  };
+};
+
 const Badge = () => {
+  const [img, setImage] = useState<string>(null);
   const router = useRouter();
+
+  useEffect(() => {
+    import("../../data/badges.json").then((data: BadgesData) => {
+      const id = parseInt(router.query.id as string);
+      setImage(data.default.badges[id - 1].badge);
+    });
+  }, []);
+
   return (
     <Link href="/badges">
       <Wrapper>
-        <Image src={`/images/badges/${router.query.id}.png`} />
+        <Image src={img} />
       </Wrapper>
     </Link>
   );

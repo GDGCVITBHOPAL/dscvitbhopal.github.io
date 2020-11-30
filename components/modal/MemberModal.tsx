@@ -62,7 +62,7 @@ const Card = styled.div`
   background: ${(p) => p.theme.color.background};
   border: 1px solid ${(p) => p.theme.color.border};
   border-radius: 5px;
-  padding: 4rem;
+  padding: 2rem;
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
 
   position: fixed;
@@ -78,6 +78,11 @@ const Image = styled.img`
   width: 140px;
   height: 140px;
   border-radius: 50%;
+
+  @media (max-width: ${(props) => props.theme.screen.sm}) {
+    width: 100px;
+    height: 100px;
+  }
 `;
 
 const ImageWrapper = styled.div`
@@ -122,6 +127,11 @@ const Icon = styled.div`
   align-items: center;
   &:hover {
     cursor: pointer;
+  }
+
+  @media (max-width: ${(props) => props.theme.screen.sm}) {
+    font-size: 20px;
+    margin: 0.6rem;
   }
 `;
 

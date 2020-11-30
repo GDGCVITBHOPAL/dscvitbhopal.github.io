@@ -32,7 +32,6 @@ export default class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <title>DSC VIT Bhopal</title>
           <meta
             name="description"
             content="Developer Student Clubs VIT Bhopal"
