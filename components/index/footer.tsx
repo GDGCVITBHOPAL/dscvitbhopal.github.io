@@ -47,7 +47,7 @@ const Footer = () => (
               <SiYoutube color="#cd201f" />
             </Icon>
           </a>
-          <a href="https://github.com/DSC-VIT-BHOPAL" target="_blank">
+          <a href="https://github.com/DSCVITBHOPAL" target="_blank">
             <Icon>
               <SiGithub color="#333" />
             </Icon>
