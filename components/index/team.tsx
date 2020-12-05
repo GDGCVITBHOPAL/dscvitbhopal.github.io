@@ -88,4 +88,7 @@ const Flex = styled.div`
   display: flex;
   justify-content: center;
   width: 260px;
+  @media (max-width: ${(props) => props.theme.screen.md}) {
+    justify-content: flex-start;
+  }
 `;
