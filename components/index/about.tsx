@@ -11,21 +11,21 @@ const About = () => {
           <Title>About</Title>
           <Info>
             Developer Student Clubs is an initiative of Google Developers.
-            <br />
-            <br />
-            Google collaborates with DSC Leads once a year who are pursuing an
-            undergraduate or graduate university degree and supports them as
-            they start and grow their on-campus community. DSC activities are
-            targeted at University students and others including faculty members
-            who want to learn development skills & work to solve real-life
-            problems.
-            <br />
-            <br />
-            We at DSC — VIT Bhopal look forward to form a community where we are
-            able to convert our knowledge into real time application, help each
-            student to develop in different fields of technology and make use of
-            our knowledge to build something that helps local businesses around
-            us as well as their community.
+            <LeftAlign>
+              Google collaborates with DSC Leads once a year who are pursuing an
+              undergraduate or graduate university degree and supports them as
+              they start and grow their on-campus community. DSC activities are
+              targeted at University students and others including faculty
+              members who want to learn development skills & work to solve
+              real-life problems.
+              <br />
+              <br />
+              We at DSC — VIT Bhopal look forward to form a community where we
+              are able to convert our knowledge into real time application, help
+              each student to develop in different fields of technology and make
+              use of our knowledge to build something that helps local
+              businesses around us as well as their community.
+            </LeftAlign>
           </Info>
         </TextGroup>
       </Container>
@@ -71,4 +71,9 @@ const Info = styled.div`
     font-size: 16px;
     line-height: 24px;
   }
+`;
+
+const LeftAlign = styled.div`
+  text-align: left;
+  padding: 2rem 0rem;
 `;
