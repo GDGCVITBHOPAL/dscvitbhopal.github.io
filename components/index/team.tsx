@@ -11,7 +11,11 @@ const Team = () => (
     <Container>
       <TextGroup>
         <Title>Meet the team</Title>
-        <Info>Get to know the team.</Info>
+        <Info>
+          Get to know the people behind the scenes.
+          <br />
+          The driving force of this community.
+        </Info>
         <Flex>
           <Link href="/team">
             <Button>The Team</Button>

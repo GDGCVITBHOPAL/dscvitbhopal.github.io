@@ -11,9 +11,8 @@ const Join = () => (
       <TextGroup>
         <Title>Be part of the community</Title>
         <Info>
-          By joining a DSC, students grow their knowledge in a peer-to-peer
-          learning environment and build solutions for local businesses and
-          their community.
+          Visit our community page and RSVP to get notifications right in your
+          inbox when we are live next.
         </Info>
         <Flex>
           <a

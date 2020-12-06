@@ -11,8 +11,13 @@ const Badges = () => {
     <Wrapper>
       <Container>
         <TextGroup>
-          <Title>Get to know your badge</Title>
-          <Info>All the badges students have accquired</Info>
+          <Title>Badges</Title>
+          <Info>
+            The students who complete tasks in our events are rewarded with
+            badges.
+            <br /> Wanna be featured on this page? Stay tuned for the next event
+            and make sure you get that badge..!!
+          </Info>
           <Flex>
             <Link href="/badges">
               <Button>Badges</Button>

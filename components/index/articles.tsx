@@ -12,7 +12,11 @@ const Article = () => {
       <Container>
         <TextGroup>
           <Title>Read our articles</Title>
-          <Info>Stories. Expirences. And much more...</Info>
+          <Info>
+            Check out the stories that we want the world to see...!
+            <br />
+            From documents to tutorials we have it all...!
+          </Info>
           <Flex>
             <Link href="/articles">
               <Button>Read Articles</Button>
@@ -67,7 +71,7 @@ const Button = styled.div`
   background: ${lightTheme.color.background};
   color: ${lightTheme.color.text};
 
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
 
   display: flex;
   justify-content: center;

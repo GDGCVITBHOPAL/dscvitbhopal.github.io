@@ -11,7 +11,11 @@ const Events = () => (
     <Container>
       <TextGroup>
         <Title>Events</Title>
-        <Info>All the events we have ever organised</Info>
+        <Info>
+          The platform where we share knowledge and grow collectively..!!
+          <br />
+          Hop on to see our past events and stay in the loop for new ones.
+        </Info>
         <Flex>
           <Link href="/events">
             <Button>Events</Button>
