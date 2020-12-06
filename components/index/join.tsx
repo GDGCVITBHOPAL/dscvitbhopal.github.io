@@ -67,6 +67,8 @@ const Info = styled.div`
   margin-top: 1rem;
   @media (max-width: ${(props) => props.theme.screen.md}) {
     text-align: left;
+    font-size: 16px;
+    line-height: 24px;
   }
 `;
 
