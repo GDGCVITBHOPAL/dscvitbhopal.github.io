@@ -4,6 +4,8 @@ import Link from "next/link";
 import Head from "next/head";
 import styled from "styled-components";
 
+import { RiLinkedinFill, RiCloseFill } from "react-icons/ri";
+
 type BadgeType = {
   id?: string;
   name?: string;
@@ -38,8 +40,8 @@ export async function getStaticPaths() {
   const data: BadgesData = await import("../../data/badges-data.json");
 
   // Get the paths we want to pre-render based on posts
-  const paths = data.default.badges.map((badge, idx) => ({
-    params: { id: (idx + 1).toString() },
+  const paths = data.default.badges.map((badge) => ({
+    params: { id: badge.id },
   }));
 
   // We'll pre-render only these paths at build time.
@@ -64,7 +66,16 @@ const Badge = ({ badges }) => {
         <script async src="https://platform.twitter.com/widgets.js"></script>
       </Head>
       <Card>
-        <Image src={img} alt="Badge" />
+        <TopWrapper>
+          <Link href="/badges">
+            <Close>
+              <RiCloseFill />
+            </Close>
+          </Link>
+        </TopWrapper>
+        <div>
+          <Image src={img} alt="Badge" />
+        </div>
         <ButtonsWrapper>
           <div>
             <a
@@ -94,14 +105,25 @@ const Badge = ({ badges }) => {
             allowFullScreen={true}
             allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
           ></iframe>
-          <Link href="/badges">
-            <Close>Back</Close>
-          </Link>
+          <LinkedInButton
+            href={`https://www.linkedin.com/sharing/share-offsite/?url=https://dscvitbhopal.github.io/badges/${router.query.id}`}
+          >
+            <Icon>
+              <RiLinkedinFill />
+            </Icon>
+            Share
+          </LinkedInButton>
         </ButtonsWrapper>
       </Card>
     </>
   );
 };
+
+const TopWrapper = styled.div`
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+`;
 
 const Card = styled.div`
   background: ${(p) => p.theme.color.background};
@@ -139,22 +161,36 @@ const Image = styled.img`
 `;
 
 const Close = styled.button`
-  width: 76px;
-  font-size: 13px;
-  height: 26px;
-  border-radius: 3px;
+  font-size: 28px;
   border: none;
-  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
   outline: none;
   cursor: pointer;
-  &:hover {
-    background: #e0e0e0;
-  }
+  background: none;
+  color: #aaaaaa;
 `;
 
 const ButtonsWrapper = styled.div`
   display: flex;
   gap: 1rem;
+`;
+
+const LinkedInButton = styled.a`
+  text-decoration: none;
+  color: white;
+  width: 77px;
+  height: 28px;
+  background: #0e76a8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: bold;
+`;
+
+const Icon = styled.div`
+  margin-right: 4px;
+  font-size: 16px;
 `;
 
 export default Badge;

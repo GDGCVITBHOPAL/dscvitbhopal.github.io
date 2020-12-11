@@ -79,6 +79,21 @@
       "id": "16",
       "badge": "/images/badges/hacktober.png",
       "name": "Nishant Mishra"
+    },
+    {
+      "id": "17",
+      "badge": "/images/badges/ml-book-nov/1.png",
+      "name": "Hemant Sai"
+    },
+    {
+      "id": "18",
+      "badge": "/images/badges/ml-book-nov/2.png",
+      "name": "Shivam Sharma"
+    },
+    {
+      "id": "19",
+      "badge": "/images/badges/ml-book-nov/3.png",
+      "name": "Nikhil Chaurasiya"
     }
   ]
 }
