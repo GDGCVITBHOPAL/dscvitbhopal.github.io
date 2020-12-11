@@ -58,7 +58,7 @@ const Badge = ({ badges }) => {
   }, []);
 
   return (
-    <Wrapper>
+    <>
       <Head>
         <title>{`DSC VIT Bhopal - Badge ${id}`}</title>
         <script async src="https://platform.twitter.com/widgets.js"></script>
@@ -81,33 +81,27 @@ const Badge = ({ badges }) => {
               Tweet
             </a>
           </div>
-          <div>
-            <script
-              src="https://platform.linkedin.com/in.js"
-              type="text/javascript"
-            >
-              lang: en_US
-            </script>
-            <script
-              type="IN/Share"
-              data-url={`https://dscvitbhopal.github.io/badges/${router.query.id}`}
-            ></script>
-          </div>
+          <iframe
+            src={`https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fdscvitbhopal.github.io%2Fbadges%2F${router.query.id}&layout=button&size=large&width=77&height=28&appId`}
+            style={{
+              border: "none",
+              overflow: "hidden",
+              width: 77,
+              height: 28,
+            }}
+            scrolling="no"
+            frameBorder="0"
+            allowFullScreen={true}
+            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+          ></iframe>
           <Link href="/badges">
             <Close>Back</Close>
           </Link>
         </ButtonsWrapper>
       </Card>
-    </Wrapper>
+    </>
   );
 };
-
-const Wrapper = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 85vh;
-`;
 
 const Card = styled.div`
   background: ${(p) => p.theme.color.background};
@@ -117,10 +111,20 @@ const Card = styled.div`
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  min-width: 30rem;
-  min-height: 35rem;
+  width: 30rem;
+  height: 35rem;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.02);
   padding: 2rem;
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -45%);
+
+  @media (max-width: ${(props) => props.theme.screen.xs}) {
+    width: 22rem;
+    height: 28rem;
+  }
 `;
 
 const Image = styled.img`
@@ -128,20 +132,10 @@ const Image = styled.img`
   height: 24rem;
   object-fit: contain;
 
-  /* @media (max-width: ${(props) => props.theme.screen.md}) {
-    width: 32rem;
-    height: 32rem;
-  }
-
-  @media (max-width: ${(props) => props.theme.screen.sm}) {
-    width: 26rem;
-    height: 26rem;
-  }
-
   @media (max-width: ${(props) => props.theme.screen.xs}) {
     width: 17rem;
     height: 17rem;
-  } */
+  }
 `;
 
 const Close = styled.button`
