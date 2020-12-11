@@ -62,15 +62,8 @@ const Badge = () => {
             </script>
             <script
               type="IN/Share"
-              data-url="https://dscvitbhopal.github.io/"
+              data-url={`https://dscvitbhopal.github.io/badges/${router.query.id}`}
             ></script>
-          </div>
-          <div>
-            <a
-              href={`https://www.linkedin.com/sharing/share-offsite/?url=https://dscvitbhopal.github.io/badges/${router.query.id}`}
-            >
-              f
-            </a>
           </div>
           <Link href="/badges">
             <Close>Back</Close>
