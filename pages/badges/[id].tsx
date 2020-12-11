@@ -16,23 +16,51 @@ type BadgesData = {
   };
 };
 
-const Badge = () => {
+export async function getStaticProps(context) {
+  const data: BadgesData = await import("../../data/badges-data.json");
+
+  if (!data) {
+    return {
+      notFound: true,
+    };
+  }
+
+  return {
+    props: {
+      badges: data.default.badges,
+    }, // will be passed to the page component as props
+  };
+}
+
+// This function gets called at build time
+export async function getStaticPaths() {
+  // Call an external API endpoint to get posts
+  const data: BadgesData = await import("../../data/badges-data.json");
+
+  // Get the paths we want to pre-render based on posts
+  const paths = data.default.badges.map((badge, idx) => ({
+    params: { id: (idx + 1).toString() },
+  }));
+
+  // We'll pre-render only these paths at build time.
+  // { fallback: false } means other routes should 404.
+  return { paths, fallback: false };
+}
+
+const Badge = ({ badges }) => {
   const [img, setImage] = useState<string>(null);
   const router = useRouter();
 
   const id = parseInt(router.query.id as string);
 
   useEffect(() => {
-    if (id) {
-      import("../../data/badges-data.json").then((data: BadgesData) => {
-        setImage(data.default.badges[id - 1].badge);
-      });
-    }
-  }, [id]);
+    setImage(badges[id - 1].badge);
+  }, []);
 
   return (
     <Wrapper>
       <Head>
+        <title>{`DSC VIT Bhopal - Badge ${id}`}</title>
         <script async src="https://platform.twitter.com/widgets.js"></script>
       </Head>
       <Card>

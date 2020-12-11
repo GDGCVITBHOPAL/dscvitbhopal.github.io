@@ -8,7 +8,6 @@ module.exports = {
       "/events": { page: "/events" },
     };
   },
-
   webpack: (config, { dev }) => {
     config.module.rules = config.module.rules.map((rule) => {
       if (rule.loader === "babel-loader") {

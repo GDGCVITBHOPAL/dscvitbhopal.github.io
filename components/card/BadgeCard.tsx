@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 const BadgeCard = ({ badge = "", name = "", id = "" }) => {
   return badge ? (
-    <Link href={`badges/${id}`}>
+    <Link href="/badges/[id]" as={`/badges/${id}`}>
       <Card>
         <Image src={badge} />
         <Name>{name}</Name>
