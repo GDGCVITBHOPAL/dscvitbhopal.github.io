@@ -3,8 +3,8 @@ import styled from "styled-components";
 import Head from "next/head";
 
 // Components
-import { Container } from "../components/global";
-import BadgeCard from "../components/card/BadgeCard";
+import { Container } from "../../components/global";
+import BadgeCard from "../../components/card/BadgeCard";
 
 type Badge = {
   id?: string;
@@ -22,7 +22,7 @@ const Badges = () => {
   const [badges, setBadges] = useState<Badge[]>([]);
 
   useEffect(() => {
-    import("../data/badges-data.json").then((data: BadgesData) => {
+    import("../../data/badges-data.json").then((data: BadgesData) => {
       setBadges(data.default.badges);
     });
   }, []);
