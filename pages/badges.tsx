@@ -22,7 +22,7 @@ const Badges = () => {
   const [badges, setBadges] = useState<Badge[]>([]);
 
   useEffect(() => {
-    import("../data/badges.json").then((data: BadgesData) => {
+    import("../data/badges-data.json").then((data: BadgesData) => {
       setBadges(data.default.badges);
     });
   }, []);
