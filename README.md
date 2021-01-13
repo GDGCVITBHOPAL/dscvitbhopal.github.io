@@ -1,8 +1,26 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Web @ DSC VIT
+
+A [DSC VIT Bhopal](https://dscvitbhopal.github.io/) website built with Next.js! PRs welcome.
+
+## System Requirements
+
+```
+1. Node.js 10.13 or later
+2. MacOS, Windows (including WSL), and Linux are supported
+3. Yarn
+```
 
 ## Getting Started
 
-First, run the development server:
+First, you need to install all dependecies:
+
+```bash
+npm install
+# or
+yarn install
+```
+
+then, run the development server:
 
 ```bash
 npm run dev
@@ -12,19 +30,38 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Your changes will get reflected as you edit.
 
-## Learn More
+## Commands
 
-To learn more about Next.js, take a look at the following resources:
+`dev` - Runs next dev which starts Next.js in development mode.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+`build` - Runs next build which builds the application for production usage.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+`start` - Runs next start which starts a Next.js production server.
 
-## Deploy on Vercel
+`export` - Uses next for static site generation.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Deploy
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+`deploy` - Uses `build` along with `export`, and deploys it to gh-pages.
+
+## Contribution
+
+If you are looking forward to contributing:
+
+```bash
+git checkout -b new_branch_name
+```
+
+Make your changes to new branch and then, push it to your forked repository.
+
+And you are ready to make pull request.
+
+## Project Admin
+
+| <a href="https://github.com/smitbarmase"><img src="https://avatars2.githubusercontent.com/u/37347831?s=460&u=a121b0f8a7444ff4e5253e9034baae3956c72498&v=4" width=70px height=70px /></a> |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Smit Barmase, Web Lead @ DSC VIT &copy; 2020-21](https://www.github.com/smitbarmase/)                                                                                                   |
+
+> **_Need help?_** > **_Feel free to contact me @ [smitbarmase@outlook.com](mailto:smitbarmase@outlook.com)_**
