@@ -1,12 +1,13 @@
-import { useState } from "react";
-import styled from "styled-components";
-import Head from "next/head";
-import { RiArrowDownSLine, RiArrowRightSLine } from "react-icons/ri";
+import { useState } from 'react';
+import styled from 'styled-components';
+import Head from 'next/head';
+import { RiArrowDownSLine, RiArrowRightSLine } from 'react-icons/ri';
 
 // Components
-import { Container } from "../components/global";
-import MemberCard from "../components/card/MemberCard";
-import MemberModal from "../components/modal/MemberModal";
+import { Container } from '../components/global';
+import MemberCard from '../components/card/MemberCard';
+import MemberModal from '../components/modal/MemberModal';
+import CommonFooter from '../components/index/CommonFooter';
 
 type Member = {
   title?: string;
@@ -29,19 +30,17 @@ const Team = () => {
   };
 
   return (
-    <Container>
-      <Head>
-        <title>DSC VIT Bhopal - Team</title>
-      </Head>
-      {modalMember && (
-        <MemberModal
-          member={modalMember}
-          handleModalToggle={handleModalToggle}
-        />
-      )}
-      <TeamSection title="Core Team" handleModalToggle={handleModalToggle} />
-      <TeamSection title="Web Team" handleModalToggle={handleModalToggle} />
-    </Container>
+    <>
+      <Container>
+        <Head>
+          <title>DSC VIT Bhopal - Team</title>
+        </Head>
+        {modalMember && <MemberModal member={modalMember} handleModalToggle={handleModalToggle} />}
+        <TeamSection title='Core Team' handleModalToggle={handleModalToggle} />
+        <TeamSection title='Web Team' handleModalToggle={handleModalToggle} />
+      </Container>
+      <CommonFooter />
+    </>
   );
 };
 
@@ -49,7 +48,7 @@ const TeamSection = ({ title, handleModalToggle }) => {
   const [team, setTeam] = useState<Member[]>([]);
   const [expanded, setExpanded] = useState(true);
 
-  import("../data/team.json").then((data: TeamData) => {
+  import('../data/team.json').then((data: TeamData) => {
     setTeam(data.default.team);
   });
 
@@ -62,11 +61,7 @@ const TeamSection = ({ title, handleModalToggle }) => {
       {expanded && (
         <GridStyled>
           {team.map((member, idx) => (
-            <MemberCard
-              key={idx}
-              member={member}
-              handleModalToggle={handleModalToggle}
-            />
+            <MemberCard key={idx} member={member} handleModalToggle={handleModalToggle} />
           ))}
         </GridStyled>
       )}
@@ -98,15 +93,15 @@ const GridStyled = styled.div`
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 2rem;
 
-  @media (max-width: ${(props) => props.theme.screen.md}) {
+  @media (max-width: ${props => props.theme.screen.md}) {
     grid-template-columns: 1fr 1fr 1fr;
   }
 
-  @media (max-width: ${(props) => props.theme.screen.sm}) {
+  @media (max-width: ${props => props.theme.screen.sm}) {
     grid-template-columns: 1fr 1fr;
   }
 
-  @media (max-width: ${(props) => props.theme.screen.xs}) {
+  @media (max-width: ${props => props.theme.screen.xs}) {
     grid-template-columns: 1fr;
     padding: 2.5rem 3rem;
   }

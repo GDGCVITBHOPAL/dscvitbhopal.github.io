@@ -1,6 +1,7 @@
-import React from "react";
-import Head from "next/head";
-import Link from "next/link";
+import React from 'react';
+import Head from 'next/head';
+import Link from 'next/link';
+import CommonFooter from '../components/index/CommonFooter';
 
 const NotFound = () => {
   return (
@@ -9,7 +10,8 @@ const NotFound = () => {
         <title>DSC VIT Bhopal - 404 Not Found</title>
       </Head>
       Not Found
-      <Link href="/">Home</Link>
+      <Link href='/'>Home</Link>
+      <CommonFooter />
     </>
   );
 };
