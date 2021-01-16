@@ -1,13 +1,14 @@
 import { useState } from "react";
 import styled from "styled-components";
 import Head from "next/head";
+import { RiArrowDownSLine, RiArrowRightSLine } from "react-icons/ri";
 
 // Components
 import { Container } from "../components/global";
 import MemberCard from "../components/card/MemberCard";
 import MemberModal from "../components/modal/MemberModal";
 
-type Memeber = {
+type Member = {
   title?: string;
   name?: string;
   link?: string;
@@ -16,25 +17,19 @@ type Memeber = {
 
 type TeamData = {
   default: {
-    team: Memeber[];
+    team: Member[];
   };
 };
 
 const Team = () => {
-  const [team, setTeam] = useState<Memeber[]>([]);
+  const [modalMember, setModalMember] = useState<Member | null>(null);
 
-  const [modalMember, setModalMember] = useState<Memeber | null>(null);
-
-  import("../data/team.json").then((data: TeamData) => {
-    setTeam(data.default.team);
-  });
-
-  const handleModalToggle = (member: Memeber | null) => {
+  const handleModalToggle = (member: Member | null) => {
     setModalMember(member);
   };
 
   return (
-    <ContainerStyled>
+    <Container>
       <Head>
         <title>DSC VIT Bhopal - Team</title>
       </Head>
@@ -44,22 +39,64 @@ const Team = () => {
           handleModalToggle={handleModalToggle}
         />
       )}
-      {team.map((member, idx) => (
-        <MemberCard
-          key={idx}
-          member={member}
-          handleModalToggle={handleModalToggle}
-        />
-      ))}
-    </ContainerStyled>
+      <TeamSection title="Core Team" handleModalToggle={handleModalToggle} />
+      <TeamSection title="Web Team" handleModalToggle={handleModalToggle} />
+    </Container>
   );
 };
 
-const ContainerStyled = styled(Container)`
+const TeamSection = ({ title, handleModalToggle }) => {
+  const [team, setTeam] = useState<Member[]>([]);
+  const [expanded, setExpanded] = useState(true);
+
+  import("../data/team.json").then((data: TeamData) => {
+    setTeam(data.default.team);
+  });
+
+  return (
+    <SectionStyled>
+      <HeaderStyled onClick={() => setExpanded(!expanded)}>
+        <TitleStyled>{title}</TitleStyled>
+        {expanded ? <RiArrowDownSLine /> : <RiArrowRightSLine />}
+      </HeaderStyled>
+      {expanded && (
+        <GridStyled>
+          {team.map((member, idx) => (
+            <MemberCard
+              key={idx}
+              member={member}
+              handleModalToggle={handleModalToggle}
+            />
+          ))}
+        </GridStyled>
+      )}
+    </SectionStyled>
+  );
+};
+
+const SectionStyled = styled.div`
+  padding-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+`;
+
+const HeaderStyled = styled.div`
+  display: flex;
+  font-size: 2.2rem;
+  justify-content: space-between;
+  cursor: pointer;
+`;
+
+const TitleStyled = styled.div`
+  font-size: 1.7rem;
+  font-weight: bold;
+`;
+
+const GridStyled = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 2rem;
-  padding: 2.5rem 0rem;
 
   @media (max-width: ${(props) => props.theme.screen.md}) {
     grid-template-columns: 1fr 1fr 1fr;
