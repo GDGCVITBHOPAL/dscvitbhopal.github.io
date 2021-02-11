@@ -9,8 +9,7 @@
         "medium": "",
         "linkedin": "https://www.linkedin.com/in/laavart-laavart-b54835169/",
         "github": "https://github.com/ra-s-al-ghul",
-        "twitter": "https://twitter.com/laavart",
-
+        "twitter": "https://twitter.com/laavart"
       }
     },
     {
@@ -37,7 +36,7 @@
         "twitter": ""
       }
     },
-     {
+    {
       "title": "Design Team",
       "name": "Ghanishth Goyal",
       "profile": "${Ghanishth}",
@@ -49,7 +48,7 @@
         "twitter": "https://twitter.com/ghanishth_goyal"
       }
     },
-     {
+    {
       "title": "Design Team",
       "name": "Sajal Gupta",
       "profile": "${Sajal}",

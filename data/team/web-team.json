@@ -9,7 +9,7 @@
         "medium": "",
         "linkedin": "https://www.linkedin.com/in/saketupadhyay/",
         "github": "https://github.com/Saket-Upadhyay",
-        "twitter": "https://twitter.com/x64mayhem",
+        "twitter": "https://twitter.com/x64mayhem"
       }
     },
     {
@@ -21,7 +21,7 @@
         "medium": "https://medium.com/@abhijeet-chatterjee2019",
         "linkedin": "https://www.linkedin.com/in/abhijeet-chatterjee-445aa2195",
         "github": "https://github.com/abhijeet007rocks8/",
-        "twitter": "https://twitter.com/Abhijee58090064",
+        "twitter": "https://twitter.com/Abhijee58090064"
       }
     },
     {
@@ -36,7 +36,7 @@
         "twitter": "https://twitter.com/neel229"
       }
     },
-     {
+    {
       "title": "Web Team",
       "name": "Aadarsh S",
       "profile": "${Aadarsh}",
@@ -50,4 +50,3 @@
     }
   ]
 }
-

@@ -9,8 +9,7 @@
         "medium": "",
         "linkedin": "https://www.linkedin.com/in/aditi-k-4246b3201",
         "github": "",
-        "twitter": "",
-
+        "twitter": ""
       }
     },
     {
@@ -37,7 +36,7 @@
         "twitter": ""
       }
     },
-     {
+    {
       "title": "Management Team",
       "name": "Sidhved Warik",
       "profile": "${Sidhved}",
@@ -49,7 +48,7 @@
         "twitter": ""
       }
     },
-     {
+    {
       "title": "Management Team",
       "name": "Pranshu Khare",
       "profile": "${Pranshu}",
@@ -61,7 +60,7 @@
         "twitter": "https://twitter.com/Pranshu_Khare_"
       }
     },
-     {
+    {
       "title": "Management Team",
       "name": "Chaitanya Kedar Sapre",
       "profile": "${Chaitanya}",
@@ -72,9 +71,8 @@
         "github": " https://github.com/Circinusss",
         "twitter": "https://twitter.com/_ChaitanyaSapre"
       }
-    }
-    ,
-     {
+    },
+    {
       "title": "Management Team",
       "name": "Manglam Tripathi",
       "profile": "${Manglam}",
