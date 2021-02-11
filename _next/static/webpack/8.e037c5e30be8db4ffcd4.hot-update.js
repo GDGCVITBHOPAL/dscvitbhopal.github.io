@@ -1,0 +1,15 @@
+webpackHotUpdate_N_E(8,{
+
+/***/ "./data/team/management-team.json":
+/*!****************************************!*\
+  !*** ./data/team/management-team.json ***!
+  \****************************************/
+/*! exports provided: team, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("{\"team\":[{\"name\":\"Aditi Kurutala\",\"profile\":\"${Aditi}\",\"bio\":\"\",\"social\":{\"medium\":\"\",\"linkedin\":\"https://www.linkedin.com/in/aditi-k-4246b3201\",\"github\":\"\",\"twitter\":\"\"}},{\"name\":\"Nandita Jain\",\"profile\":\"${Nandita}\",\"bio\":\"\",\"social\":{\"medium\":\"\",\"linkedin\":\"https://www.linkedin.com/in/nandita-jain026\",\"github\":\"https://github.com/nandita-jain\",\"twitter\":\"https://twitter.com/Nandita12019266\"}},{\"name\":\"Aditya Vishwakarma\",\"profile\":\"${Aditya}\",\"bio\":\"\",\"social\":{\"medium\":\"\",\"linkedin\":\"https://www.linkedin.com/in/aditya-vishwakarma-600574181/\",\"github\":\"https://github.com/aditya-Vishwakarma\",\"twitter\":\"\"}},{\"name\":\"Sidhved Warik\",\"profile\":\"${Sidhved}\",\"bio\":\"\",\"social\":{\"medium\":\"\",\"linkedin\":\"www.linkedin.com/in/sidhved-warik-b05aab173\",\"github\":\"https://github.com/Sidhved\",\"twitter\":\"\"}},{\"name\":\"Pranshu Khare\",\"profile\":\"${Pranshu}\",\"bio\":\"\",\"social\":{\"medium\":\"\",\"linkedin\":\"https://www.linkedin.com/in/pranshukhare03/\",\"github\":\"https://github.com/Pranshu03\",\"twitter\":\"https://twitter.com/Pranshu_Khare_\"}},{\"name\":\"Chaitanya Kedar Sapre\",\"profile\":\"${Chaitanya}\",\"bio\":\"\",\"social\":{\"medium\":\"\",\"linkedin\":\"https://www.linkedin.com/in/chaitanya-sapre-12758715a/\",\"github\":\" https://github.com/Circinusss\",\"twitter\":\"https://twitter.com/_ChaitanyaSapre\"}},{\"name\":\"Manglam Tripathi\",\"profile\":\"${Manglam}\",\"bio\":\"\",\"social\":{\"medium\":\"\",\"linkedin\":\"https://www.linkedin.com/in/manglam-tripathi-351a5018b/\",\"github\":\"https://github.com/manglam-tripathi\",\"twitter\":\"\"}}]}");
+
+/***/ })
+
+})
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdGF0aWMvd2VicGFjay84LmUwMzdjNWUzMGJlOGRiNGZmY2Q0LmhvdC11cGRhdGUuanMiLCJzb3VyY2VSb290IjoiIn0=
