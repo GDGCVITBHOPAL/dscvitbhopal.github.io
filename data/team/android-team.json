@@ -1,0 +1,64 @@
+{
+  "team": [
+    {
+      "title": "Android Team",
+      "name": "Vishesh Tripathi",
+      "profile": "${Vishesh}",
+      "bio": "",
+      "social": {
+        "medium": "",
+        "linkedin": "https://www.linkedin.com/in/vishesh-tripathi-3a62961b8/",
+        "github": "https://github.com/Vishesht27",
+        "twitter": "",
+      }
+    },
+    {
+      "title": "Android Team",
+      "name": "Vineet Khola",
+      "profile": "${Vineet}",
+      "bio": "",
+      "social": {
+        "medium": "",
+        "linkedin": "https://www.linkedin.com/in/vineet-khola-2a6a7816a",
+        "github": "https://github.com/vinu2837",
+        "twitter": "https://twitter.com/20a9e6591c464d6"
+      }
+    },
+    {
+      "title": "Android Team",
+      "name": "Ankit Sagar",
+      "profile": "${Ankit}",
+      "bio": "",
+      "social": {
+        "medium": "",
+        "linkedin": "https://www.linkedin.com/in/woinbo/",
+        "github": "https://github.com/woinbo/woinbo",
+        "twitter": "https://twitter.com/woinbo"
+      }
+    },
+     {
+      "title": "Android Team",
+      "name": "Onkar Shaligram",
+      "profile": "${Onkar}",
+      "bio": "",
+      "social": {
+        "medium": "",
+        "linkedin": "https://www.linkedin.com/in/onkar-shaligram-a9799b190",
+        "github": "https://github.com/onkar-shaligram",
+        "twitter": "https://twitter.com/shaligram_onkar"
+      }
+    },
+     {
+      "title": "Android Team",
+      "name": "Dhruv Mehta",
+      "profile": "${Dhruv}",
+      "bio": "",
+      "social": {
+        "medium": "",
+        "linkedin": "https://www.linkedin.com/in/dhruv-mehta-194dev",
+        "github": "https://github.com/Dhruv-194",
+        "twitter": "https://twitter.com/wilder569"
+      }
+    }
+  ]
+}
