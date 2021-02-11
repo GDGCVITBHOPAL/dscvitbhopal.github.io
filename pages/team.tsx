@@ -1,13 +1,13 @@
-import { useState } from 'react';
-import styled from 'styled-components';
-import Head from 'next/head';
-import { RiArrowDownSLine, RiArrowRightSLine } from 'react-icons/ri';
+import { useState } from "react";
+import styled from "styled-components";
+import Head from "next/head";
+import { RiArrowDownSLine, RiArrowRightSLine } from "react-icons/ri";
 
 // Components
-import { Container } from '../components/global';
-import MemberCard from '../components/card/MemberCard';
-import MemberModal from '../components/modal/MemberModal';
-import CommonFooter from '../components/index/CommonFooter';
+import { Container } from "../components/global";
+import MemberCard from "../components/card/MemberCard";
+import MemberModal from "../components/modal/MemberModal";
+import CommonFooter from "../components/index/CommonFooter";
 
 type Member = {
   title?: string;
@@ -35,20 +35,58 @@ const Team = () => {
         <Head>
           <title>DSC VIT Bhopal - Team</title>
         </Head>
-        {modalMember && <MemberModal member={modalMember} handleModalToggle={handleModalToggle} />}
-        <TeamSection title='Core Team' handleModalToggle={handleModalToggle} />
-        <TeamSection title='Web Team' handleModalToggle={handleModalToggle} />
+        {modalMember && (
+          <MemberModal
+            member={modalMember}
+            handleModalToggle={handleModalToggle}
+          />
+        )}
+        <TeamSection
+          title="Core Team"
+          handleModalToggle={handleModalToggle}
+          relativeLocation="team.json"
+        />
+        <TeamSection
+          title="Web Team"
+          handleModalToggle={handleModalToggle}
+          relativeLocation="team/web-team.json"
+        />
+        <TeamSection
+          title="ML Team"
+          handleModalToggle={handleModalToggle}
+          relativeLocation="team/ml-team.json"
+        />
+        <TeamSection
+          title="Android Team"
+          handleModalToggle={handleModalToggle}
+          relativeLocation="team/android-team.json"
+        />
+        <TeamSection
+          title="Design Team"
+          handleModalToggle={handleModalToggle}
+          relativeLocation="team/design-team.json"
+        />
+        <TeamSection
+          title="Content Team"
+          handleModalToggle={handleModalToggle}
+          relativeLocation="team/content-team.json"
+        />
+        <TeamSection
+          title="Management Team"
+          handleModalToggle={handleModalToggle}
+          relativeLocation="team/management-team.json"
+        />
       </Container>
       <CommonFooter />
     </>
   );
 };
 
-const TeamSection = ({ title, handleModalToggle }) => {
+const TeamSection = ({ title, handleModalToggle, relativeLocation }) => {
   const [team, setTeam] = useState<Member[]>([]);
   const [expanded, setExpanded] = useState(true);
 
-  import('../data/team.json').then((data: TeamData) => {
+  import(`../data/${relativeLocation}`).then((data: TeamData) => {
     setTeam(data.default.team);
   });
 
@@ -61,7 +99,11 @@ const TeamSection = ({ title, handleModalToggle }) => {
       {expanded && (
         <GridStyled>
           {team.map((member, idx) => (
-            <MemberCard key={idx} member={member} handleModalToggle={handleModalToggle} />
+            <MemberCard
+              key={idx}
+              member={member}
+              handleModalToggle={handleModalToggle}
+            />
           ))}
         </GridStyled>
       )}
@@ -93,15 +135,15 @@ const GridStyled = styled.div`
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 2rem;
 
-  @media (max-width: ${props => props.theme.screen.md}) {
+  @media (max-width: ${(props) => props.theme.screen.md}) {
     grid-template-columns: 1fr 1fr 1fr;
   }
 
-  @media (max-width: ${props => props.theme.screen.sm}) {
+  @media (max-width: ${(props) => props.theme.screen.sm}) {
     grid-template-columns: 1fr 1fr;
   }
 
-  @media (max-width: ${props => props.theme.screen.xs}) {
+  @media (max-width: ${(props) => props.theme.screen.xs}) {
     grid-template-columns: 1fr;
     padding: 2.5rem 3rem;
   }
