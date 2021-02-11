@@ -1,7 +1,6 @@
 {
   "team": [
     {
-      "title": "Android Team",
       "name": "Vishesh Tripathi",
       "profile": "${Vishesh}",
       "bio": "",
@@ -13,7 +12,6 @@
       }
     },
     {
-      "title": "Android Team",
       "name": "Vineet Khola",
       "profile": "${Vineet}",
       "bio": "",
@@ -25,7 +23,6 @@
       }
     },
     {
-      "title": "Android Team",
       "name": "Ankit Sagar",
       "profile": "${Ankit}",
       "bio": "",
@@ -37,7 +34,6 @@
       }
     },
     {
-      "title": "Android Team",
       "name": "Onkar Shaligram",
       "profile": "${Onkar}",
       "bio": "",
@@ -49,7 +45,6 @@
       }
     },
     {
-      "title": "Android Team",
       "name": "Dhruv Mehta",
       "profile": "${Dhruv}",
       "bio": "",

@@ -8,7 +8,7 @@ const MemberCard = ({ member, handleModalToggle = null }) => {
         <Image src={member.profile} />
       </ImageWrapper>
       <Name>{member.name}</Name>
-      <Title>{member.title}</Title>
+      {member.title && <Title>{member.title}</Title>}
     </Card>
   );
 };

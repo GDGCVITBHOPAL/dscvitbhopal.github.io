@@ -1,7 +1,6 @@
 {
   "team": [
     {
-      "title": "Design Team",
       "name": "Laavart",
       "profile": "${Laavart}",
       "bio": "",
@@ -13,7 +12,6 @@
       }
     },
     {
-      "title": "Design Team",
       "name": "Kripansh Sharma",
       "profile": "${Kripansh}",
       "bio": "",
@@ -25,7 +23,6 @@
       }
     },
     {
-      "title": "Design Team",
       "name": "Shreyansh Kumar",
       "profile": "${Shreyansh}",
       "bio": "",
@@ -37,7 +34,6 @@
       }
     },
     {
-      "title": "Design Team",
       "name": "Ghanishth Goyal",
       "profile": "${Ghanishth}",
       "bio": "",
@@ -49,7 +45,6 @@
       }
     },
     {
-      "title": "Design Team",
       "name": "Sajal Gupta",
       "profile": "${Sajal}",
       "bio": "",

@@ -1,7 +1,6 @@
 {
   "team": [
     {
-      "title": "Management Team",
       "name": "Aditi Kurutala",
       "profile": "${Aditi}",
       "bio": "",
@@ -13,7 +12,6 @@
       }
     },
     {
-      "title": "Management Team",
       "name": "Nandita Jain",
       "profile": "${Nandita}",
       "bio": "",
@@ -25,7 +23,6 @@
       }
     },
     {
-      "title": "Management Team",
       "name": "Aditya Vishwakarma",
       "profile": "${Aditya}",
       "bio": "",
@@ -37,7 +34,6 @@
       }
     },
     {
-      "title": "Management Team",
       "name": "Sidhved Warik",
       "profile": "${Sidhved}",
       "bio": "",
@@ -49,7 +45,6 @@
       }
     },
     {
-      "title": "Management Team",
       "name": "Pranshu Khare",
       "profile": "${Pranshu}",
       "bio": "",
@@ -61,7 +56,6 @@
       }
     },
     {
-      "title": "Management Team",
       "name": "Chaitanya Kedar Sapre",
       "profile": "${Chaitanya}",
       "bio": "",
@@ -73,7 +67,6 @@
       }
     },
     {
-      "title": "Management Team",
       "name": "Manglam Tripathi",
       "profile": "${Manglam}",
       "bio": "",

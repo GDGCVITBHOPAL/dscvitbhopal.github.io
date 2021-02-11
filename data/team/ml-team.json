@@ -1,7 +1,6 @@
 {
   "team": [
     {
-      "title": "ML Team",
       "name": "Aayush Mishra",
       "profile": "${Aayush}",
       "bio": "",
@@ -13,7 +12,6 @@
       }
     },
     {
-      "title": "ML Team",
       "name": "Indrashis Paul",
       "profile": "${Indrashis}",
       "bio": "",
@@ -25,7 +23,6 @@
       }
     },
     {
-      "title": "ML Team",
       "name": "Yash Sinha",
       "profile": "${Yash}",
       "bio": "",

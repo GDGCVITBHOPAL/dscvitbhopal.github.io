@@ -1,7 +1,6 @@
 {
   "team": [
     {
-      "title": "Content Team",
       "name": "Shireen Soporee",
       "profile": "${Shireen}",
       "bio": "",
@@ -13,7 +12,6 @@
       }
     },
     {
-      "title": "Content Team",
       "name": "Sanskruti Dube",
       "profile": "${Sanskruti}",
       "bio": "",
@@ -25,7 +23,6 @@
       }
     },
     {
-      "title": "Content Team",
       "name": "Pratibha Tiwari",
       "profile": "${Pratibha}",
       "bio": "",

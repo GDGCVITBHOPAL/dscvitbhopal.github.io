@@ -1,7 +1,6 @@
 {
   "team": [
     {
-      "title": "Web Team",
       "name": "Saket Upadhyay",
       "profile": "${Saket}",
       "bio": "",
@@ -13,7 +12,6 @@
       }
     },
     {
-      "title": "Web Team",
       "name": "Abhijeet Chatterjee",
       "profile": "${Abhijeet}",
       "bio": "",
@@ -25,7 +23,6 @@
       }
     },
     {
-      "title": "Web Team",
       "name": "Neel Modi",
       "profile": "${Neel}",
       "bio": "",
@@ -37,7 +34,6 @@
       }
     },
     {
-      "title": "Web Team",
       "name": "Aadarsh S",
       "profile": "${Aadarsh}",
       "bio": "",
