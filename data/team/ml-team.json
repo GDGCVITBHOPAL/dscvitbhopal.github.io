@@ -1,0 +1,40 @@
+{
+  "team": [
+    {
+      "title": "ML Team",
+      "name": "Aayush Mishra",
+      "profile": "${Aayush}",
+      "bio": "",
+      "social": {
+        "medium": "",
+        "linkedin": "https://www.linkedin.com/in/aayush-mishra-22a8a4b",
+        "github": "https://github.com/AM1CODES",
+        "twitter": "https://twitter.com/thatshutterboi",
+      }
+    },
+    {
+      "title": "ML Team",
+      "name": "Indrashis Paul",
+      "profile": "${Indrashis}",
+      "bio": "",
+      "social": {
+        "medium": "",
+        "linkedin": "https://www.linkedin.com/in/indrashis-paul-ba84b6194 paul_indra_24",
+        "github": "https://github.com/IndraP24",
+        "twitter": "https://twitter.com/IndraP2408"
+      }
+    },
+    {
+      "title": "ML Team",
+      "name": "Yash Sinha",
+      "profile": "${Yash}",
+      "bio": "",
+      "social": {
+        "medium": "",
+        "linkedin": "https://www.linkedin.com/in/yash-sinha-ab17461a2/",
+        "github": "https://github.com/yashsinha848",
+        "twitter": ""
+      }
+    }
+  ]
+}

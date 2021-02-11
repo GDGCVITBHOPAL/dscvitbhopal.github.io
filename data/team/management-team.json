@@ -1,0 +1,90 @@
+{
+  "team": [
+    {
+      "title": "Management Team",
+      "name": "Aditi Kurutala",
+      "profile": "${Aditi}",
+      "bio": "",
+      "social": {
+        "medium": "",
+        "linkedin": "https://www.linkedin.com/in/aditi-k-4246b3201",
+        "github": "",
+        "twitter": "",
+
+      }
+    },
+    {
+      "title": "Management Team",
+      "name": "Nandita Jain",
+      "profile": "${Nandita}",
+      "bio": "",
+      "social": {
+        "medium": "",
+        "linkedin": "https://www.linkedin.com/in/nandita-jain026",
+        "github": "https://github.com/nandita-jain",
+        "twitter": "https://twitter.com/Nandita12019266"
+      }
+    },
+    {
+      "title": "Management Team",
+      "name": "Aditya Vishwakarma",
+      "profile": "${Aditya}",
+      "bio": "",
+      "social": {
+        "medium": "",
+        "linkedin": "https://www.linkedin.com/in/aditya-vishwakarma-600574181/",
+        "github": "https://github.com/aditya-Vishwakarma",
+        "twitter": ""
+      }
+    },
+     {
+      "title": "Management Team",
+      "name": "Sidhved Warik",
+      "profile": "${Sidhved}",
+      "bio": "",
+      "social": {
+        "medium": "",
+        "linkedin": "www.linkedin.com/in/sidhved-warik-b05aab173",
+        "github": "https://github.com/Sidhved",
+        "twitter": ""
+      }
+    },
+     {
+      "title": "Management Team",
+      "name": "Pranshu Khare",
+      "profile": "${Pranshu}",
+      "bio": "",
+      "social": {
+        "medium": "",
+        "linkedin": "https://www.linkedin.com/in/pranshukhare03/",
+        "github": "https://github.com/Pranshu03",
+        "twitter": "https://twitter.com/Pranshu_Khare_"
+      }
+    },
+     {
+      "title": "Management Team",
+      "name": "Chaitanya Kedar Sapre",
+      "profile": "${Chaitanya}",
+      "bio": "",
+      "social": {
+        "medium": "",
+        "linkedin": "https://www.linkedin.com/in/chaitanya-sapre-12758715a/",
+        "github": " https://github.com/Circinusss",
+        "twitter": "https://twitter.com/_ChaitanyaSapre"
+      }
+    }
+    ,
+     {
+      "title": "Management Team",
+      "name": "Manglam Tripathi",
+      "profile": "${Manglam}",
+      "bio": "",
+      "social": {
+        "medium": "",
+        "linkedin": "https://www.linkedin.com/in/manglam-tripathi-351a5018b/",
+        "github": "https://github.com/manglam-tripathi",
+        "twitter": ""
+      }
+    }
+  ]
+}
