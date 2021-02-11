@@ -24,7 +24,7 @@ const CommonFooter = () => (
     </MobileTitle>
     <Flex>
       <Title>
-        Mady with ❤️ by DSC Web Team | Contribute to our
+        Made with ❤️ by Web Team | Contribute to our
         <GithubATag href="https://github.com/DSCVITBHOPAL/dscvitbhopal.github.io">
           {" "}
           Github
