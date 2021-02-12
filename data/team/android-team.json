@@ -2,7 +2,7 @@
   "team": [
     {
       "name": "Vishesh Tripathi",
-      "profile": "${Vishesh}",
+      "profile": "https://raw.githubusercontent.com/DSCVITBHOPAL/dscvitbhopal.github.io/master/public/images/team/android-team/1.jpg",
       "bio": "",
       "social": {
         "medium": "",
@@ -13,7 +13,7 @@
     },
     {
       "name": "Vineet Khola",
-      "profile": "${Vineet}",
+      "profile": "https://raw.githubusercontent.com/DSCVITBHOPAL/dscvitbhopal.github.io/master/public/images/team/android-team/2.jpg",
       "bio": "",
       "social": {
         "medium": "",
@@ -24,7 +24,7 @@
     },
     {
       "name": "Ankit Sagar",
-      "profile": "${Ankit}",
+      "profile": "https://raw.githubusercontent.com/DSCVITBHOPAL/dscvitbhopal.github.io/master/public/images/team/android-team/3.jpg",
       "bio": "",
       "social": {
         "medium": "",
@@ -35,7 +35,7 @@
     },
     {
       "name": "Onkar Shaligram",
-      "profile": "${Onkar}",
+      "profile": "https://raw.githubusercontent.com/DSCVITBHOPAL/dscvitbhopal.github.io/master/public/images/team/android-team/4.jpg",
       "bio": "",
       "social": {
         "medium": "",
@@ -46,7 +46,7 @@
     },
     {
       "name": "Dhruv Mehta",
-      "profile": "${Dhruv}",
+      "profile": "https://raw.githubusercontent.com/DSCVITBHOPAL/dscvitbhopal.github.io/master/public/images/team/android-team/5.jpg",
       "bio": "",
       "social": {
         "medium": "",

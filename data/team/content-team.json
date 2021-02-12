@@ -2,7 +2,7 @@
   "team": [
     {
       "name": "Shireen Soporee",
-      "profile": "${Shireen}",
+      "profile": "https://raw.githubusercontent.com/DSCVITBHOPAL/dscvitbhopal.github.io/master/public/images/team/content-team/1.jpg",
       "bio": "",
       "social": {
         "medium": "",
@@ -13,7 +13,7 @@
     },
     {
       "name": "Sanskruti Dube",
-      "profile": "${Sanskruti}",
+      "profile": "https://raw.githubusercontent.com/DSCVITBHOPAL/dscvitbhopal.github.io/master/public/images/team/content-team/2.jpg",
       "bio": "",
       "social": {
         "medium": "https://medium.com/@sanskrutidube",
@@ -24,7 +24,7 @@
     },
     {
       "name": "Pratibha Tiwari",
-      "profile": "${Pratibha}",
+      "profile": "https://raw.githubusercontent.com/DSCVITBHOPAL/dscvitbhopal.github.io/master/public/images/team/content-team/3.jpg",
       "bio": "",
       "social": {
         "medium": "",
