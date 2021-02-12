@@ -27,6 +27,7 @@ const Image = styled.img`
   width: 90px;
   height: 90px;
   border-radius: 50%;
+  object-fit: cover;
 `;
 
 const ImageWrapper = styled.div`

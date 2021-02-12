@@ -11,8 +11,8 @@ const MemberModal = ({ member, handleModalToggle }) => {
           <Image src={member.profile} />
         </ImageWrapper>
         <Name>{member.name}</Name>
-        <Title>{member.title}</Title>
-        <Bio>{member.bio}</Bio>
+        {member.title && <Title>{member.title}</Title>}
+        {member.bio && <Bio>{member.bio}</Bio>}
         <Flex>
           {member.social.medium && (
             <a href={member.social.medium} target="_blank">
@@ -78,6 +78,7 @@ const Image = styled.img`
   width: 140px;
   height: 140px;
   border-radius: 50%;
+  object-fit: cover;
 
   @media (max-width: ${(props) => props.theme.screen.sm}) {
     width: 100px;
