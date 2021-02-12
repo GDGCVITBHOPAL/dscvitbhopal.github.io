@@ -2,7 +2,7 @@
   "team": [
     {
       "name": "Laavart",
-      "profile": "${Laavart}",
+      "profile": "https://raw.githubusercontent.com/DSCVITBHOPAL/dscvitbhopal.github.io/master/public/images/team/design-team/1.jpg",
       "bio": "",
       "social": {
         "medium": "",
@@ -13,7 +13,7 @@
     },
     {
       "name": "Kripansh Sharma",
-      "profile": "${Kripansh}",
+      "profile": "https://raw.githubusercontent.com/DSCVITBHOPAL/dscvitbhopal.github.io/master/public/images/team/design-team/2.jpg",
       "bio": "",
       "social": {
         "medium": "",
@@ -24,7 +24,7 @@
     },
     {
       "name": "Shreyansh Kumar",
-      "profile": "${Shreyansh}",
+      "profile": "https://raw.githubusercontent.com/DSCVITBHOPAL/dscvitbhopal.github.io/master/public/images/team/design-team/3.jpg",
       "bio": "",
       "social": {
         "medium": "",
@@ -35,7 +35,7 @@
     },
     {
       "name": "Ghanishth Goyal",
-      "profile": "${Ghanishth}",
+      "profile": "https://raw.githubusercontent.com/DSCVITBHOPAL/dscvitbhopal.github.io/master/public/images/team/design-team/4.jpg",
       "bio": "",
       "social": {
         "medium": "",
@@ -46,7 +46,7 @@
     },
     {
       "name": "Sajal Gupta",
-      "profile": "${Sajal}",
+      "profile": "https://raw.githubusercontent.com/DSCVITBHOPAL/dscvitbhopal.github.io/master/public/images/team/design-team/5.jpg",
       "bio": "",
       "social": {
         "medium": "",

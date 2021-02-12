@@ -2,7 +2,7 @@
   "team": [
     {
       "name": "Aayush Mishra",
-      "profile": "${Aayush}",
+      "profile": "https://raw.githubusercontent.com/DSCVITBHOPAL/dscvitbhopal.github.io/master/public/images/team/ml-team/1.jpg",
       "bio": "",
       "social": {
         "medium": "",
@@ -13,7 +13,7 @@
     },
     {
       "name": "Indrashis Paul",
-      "profile": "${Indrashis}",
+      "profile": "https://raw.githubusercontent.com/DSCVITBHOPAL/dscvitbhopal.github.io/master/public/images/team/ml-team/2.jpg",
       "bio": "",
       "social": {
         "medium": "",
@@ -24,7 +24,7 @@
     },
     {
       "name": "Yash Sinha",
-      "profile": "${Yash}",
+      "profile": "https://raw.githubusercontent.com/DSCVITBHOPAL/dscvitbhopal.github.io/master/public/images/team/ml-team/3.jpg",
       "bio": "",
       "social": {
         "medium": "",
