@@ -16,7 +16,7 @@ import { Container } from "../global";
 const CommonFooter = () => (
   <Container>
     <MobileTitle>
-      Mady with ❤️ by DSC Web Team | Contribute to our
+      Made with ❤️ by DSC Web Team | Contribute to our
       <GithubATag href="https://github.com/DSCVITBHOPAL/dscvitbhopal.github.io">
         {" "}
         Github
