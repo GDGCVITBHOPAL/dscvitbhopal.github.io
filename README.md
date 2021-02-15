@@ -70,4 +70,4 @@ And you are ready to make pull request.
 
 
 
-> **_Need help?_** > **_Feel free to contact @ [smitbarmase@outlook.com](mailto:smitbarmase@outlook.com)_**
+> **_Need help?_** > **_Feel free to contact Smit @ [smitbarmase@outlook.com](mailto:smitbarmase@outlook.com)_**
