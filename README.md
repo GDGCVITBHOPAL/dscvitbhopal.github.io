@@ -58,7 +58,7 @@ Make your changes to new branch and then, push it to your forked repository.
 
 And you are ready to make pull request.
 
-## Project Admin
+## Project Contributors
 
 | SMIT BARMASE | ABHIJEET | AADARSH S |
 | --- | --- | ---
