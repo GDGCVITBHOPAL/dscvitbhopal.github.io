@@ -58,10 +58,16 @@ Make your changes to new branch and then, push it to your forked repository.
 
 And you are ready to make pull request.
 
-## Project Admin
+## Project Contributors
 
-| <a href="https://github.com/smitbarmase"><img src="https://avatars2.githubusercontent.com/u/37347831?s=460&u=a121b0f8a7444ff4e5253e9034baae3956c72498&v=4" width=70px height=70px /></a> |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Smit Barmase, Web Lead @ DSC VIT &copy; 2020-21](https://www.github.com/smitbarmase/)                                                                                                   |
+| SMIT BARMASE | ABHIJEET | AADARSH S |
+| --- | --- | ---
+|![@Smit Sawant](https://avatars.githubusercontent.com/u/37347831?s=96&v=4)| ![@Abhijeet Chatterjee](https://avatars.githubusercontent.com/u/64676594?s=96&v=4) | ![@Aadarsh S](https://avatars.githubusercontent.com/u/54549066?s=96&v=4)
+| Web Lead @<br>DSC VIT-Bhopal<br>2020-21 | Web Team @<br>DSC VIT-Bhopal<br>2020-21 | Web Team @<br>DSC VIT-Bhopal<br>2020-21 |
+| [Github](https://github.com/smitbarmase "Smit") | [Github](https://github.com/abhijeet007rocks8 "Abhijeet") | [Github](https://github.com/Itsaadarsh "Aadarsh")
+| [LinkedIn](https://www.linkedin.com/in/smitbarmase/ "Smit")| [LinkedIn](https://www.linkedin.com/in/abhijeet-chatterjee-445aa2195  "Abhijeet")| [LinkedIn](https://www.linkedin.com/in/itsaadarsh/ "Aadarsh")
 
-> **_Need help?_** > **_Feel free to contact me @ [smitbarmase@outlook.com](mailto:smitbarmase@outlook.com)_**
+
+
+
+> **_Need help?_** > **_Feel free to contact Smit @ [smitbarmase@outlook.com](mailto:smitbarmase@outlook.com)_**
