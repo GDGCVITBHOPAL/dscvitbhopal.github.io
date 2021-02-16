@@ -144,8 +144,9 @@ const GridStyled = styled.div`
   }
 
   @media (max-width: ${(props) => props.theme.screen.xs}) {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     padding: 2.5rem 3rem;
+    font-size: 1.2rem
   }
 `;
 
