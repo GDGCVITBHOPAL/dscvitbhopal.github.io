@@ -60,12 +60,12 @@ And you are ready to make pull request.
 
 ## Project Contributors
 
-| SMIT BARMASE | ABHIJEET | AADARSH S |
-| --- | --- | ---
-|![@Smit Sawant](https://avatars.githubusercontent.com/u/37347831?s=96&v=4)| ![@Abhijeet Chatterjee](https://avatars.githubusercontent.com/u/64676594?s=96&v=4) | ![@Aadarsh S](https://avatars.githubusercontent.com/u/54549066?s=96&v=4)
-| Web Lead @<br>DSC VIT-Bhopal<br>2020-21 | Web Team @<br>DSC VIT-Bhopal<br>2020-21 | Web Team @<br>DSC VIT-Bhopal<br>2020-21 |
-| [Github](https://github.com/smitbarmase "Smit") | [Github](https://github.com/abhijeet007rocks8 "Abhijeet") | [Github](https://github.com/Itsaadarsh "Aadarsh")
-| [LinkedIn](https://www.linkedin.com/in/smitbarmase/ "Smit")| [LinkedIn](https://www.linkedin.com/in/abhijeet-chatterjee-445aa2195  "Abhijeet")| [LinkedIn](https://www.linkedin.com/in/itsaadarsh/ "Aadarsh")
+| SMIT BARMASE | ABHIJEET | AADARSH S |Neel Modi |
+| --- | --- | --- | --- |
+|![@Smit Barmase](https://avatars.githubusercontent.com/u/37347831?s=96&v=4)| ![@Abhijeet Chatterjee](https://avatars.githubusercontent.com/u/64676594?s=96&v=4) | ![@Aadarsh S](https://avatars.githubusercontent.com/u/54549066?s=96&v=4) | ![@Neel Modi](https://avatars.githubusercontent.com/u/53475167?s=96&v=4)
+| Web Lead @<br>DSC VIT-Bhopal<br>2020-21 | Web Team @<br>DSC VIT-Bhopal<br>2020-21 | Web Team @<br>DSC VIT-Bhopal<br>2020-21 | Web Team @<br>DSC VIT-Bhopal<br>2020-21 |
+| [Github](https://github.com/smitbarmase "Smit") | [Github](https://github.com/abhijeet007rocks8 "Abhijeet") | [Github](https://github.com/Itsaadarsh "Aadarsh") | [Github](https://github.com/neel229 "Neel")
+| [LinkedIn](https://www.linkedin.com/in/smitbarmase/ "Smit")| [LinkedIn](https://www.linkedin.com/in/abhijeet-chatterjee-445aa2195  "Abhijeet")| [LinkedIn](https://www.linkedin.com/in/itsaadarsh/ "Aadarsh") | [LinkedIn](https://www.linkedin.com/in/neel-modi-22909/ "Neel")
 
 
 
