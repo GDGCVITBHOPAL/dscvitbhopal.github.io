@@ -8,6 +8,7 @@ import Article from '../components/index/articles';
 import Join from '../components/index/join';
 import Events from '../components/index/events';
 import Badges from '../components/index/badges';
+import Sponsors from "../components/index/sponsors"
 import CommonFooter from '../components/index/CommonFooter';
 
 const Home = () => {
@@ -22,6 +23,7 @@ const Home = () => {
       <Article />
       <Events />
       <Badges />
+      <Sponsors />
       <Join />
       <CommonFooter />
     </>

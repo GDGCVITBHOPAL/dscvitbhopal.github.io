@@ -6,31 +6,40 @@ import { Section, Container } from "../global";
 import { lightTheme } from "../../styles/theme";
 
 const Join = () => (
-  <Section id="join">
-    <Container>
-      <TextGroup>
-        <Title>Be part of the community</Title>
-        <Info>
-          Visit our community page and RSVP to get notifications right in your
-          inbox when we are live next.
-        </Info>
-        <Flex>
-          <a
-            href="https://dsc.community.dev/vellore-institute-of-technology-bhopal/"
-            target="_blank"
-          >
-            <Button>Join Us</Button>
-          </a>
-          <a href="https://discord.gg/3ufQSct" target="_blank">
-            <Button>Chat</Button>
-          </a>
-        </Flex>
-      </TextGroup>
-    </Container>
-  </Section>
+  <Wrapper>
+    <Section id="join">
+      <Container>
+        <TextGroup>
+          <Title>Be part of the community</Title>
+          <Info>
+            Visit our community page and RSVP to get notifications right in your
+            inbox when we are live next.
+          </Info>
+          <Flex>
+            <a
+              href="https://dsc.community.dev/vellore-institute-of-technology-bhopal/"
+              target="_blank"
+            >
+              <Button>Join Us</Button>
+            </a>
+            <a href="https://discord.gg/3ufQSct" target="_blank">
+              <Button>Chat</Button>
+            </a>
+          </Flex>
+        </TextGroup>
+      </Container>
+    </Section>
+  </Wrapper>
 );
 
 export default Join;
+
+const Wrapper = styled(Section)`
+  background-color: ${(props) => props.theme.color.background};
+  clip-path: polygon(0 3vw, 100% 0, 100% 100%, 0 100%);
+  padding: 10rem 0;
+`;
+
 
 const TextGroup = styled.div`
   display: flex;
