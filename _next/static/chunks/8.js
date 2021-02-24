@@ -1,13 +1,13 @@
 (window["webpackJsonp_N_E"] = window["webpackJsonp_N_E"] || []).push([[8],{
 
-/***/ "./data/team/ml-team.json":
-/*!********************************!*\
-  !*** ./data/team/ml-team.json ***!
-  \********************************/
+/***/ "./data/team/design-team.json":
+/*!************************************!*\
+  !*** ./data/team/design-team.json ***!
+  \************************************/
 /*! exports provided: team, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"team\":[{\"name\":\"Aayush Mishra\",\"profile\":\"https://raw.githubusercontent.com/DSCVITBHOPAL/dscvitbhopal.github.io/master/public/images/team/ml-team/1.jpg\",\"bio\":\"\",\"social\":{\"medium\":\"\",\"linkedin\":\"https://www.linkedin.com/in/aayush-mishra-22a8a4b\",\"github\":\"https://github.com/AM1CODES\",\"twitter\":\"https://twitter.com/thatshutterboi\"}},{\"name\":\"Indrashis Paul\",\"profile\":\"https://raw.githubusercontent.com/DSCVITBHOPAL/dscvitbhopal.github.io/master/public/images/team/ml-team/2.jpg\",\"bio\":\"\",\"social\":{\"medium\":\"\",\"linkedin\":\"https://www.linkedin.com/in/indrashis-paul-ba84b6194 paul_indra_24\",\"github\":\"https://github.com/IndraP24\",\"twitter\":\"https://twitter.com/IndraP2408\"}},{\"name\":\"Yash Sinha\",\"profile\":\"https://raw.githubusercontent.com/DSCVITBHOPAL/dscvitbhopal.github.io/master/public/images/team/ml-team/3.jpg\",\"bio\":\"\",\"social\":{\"medium\":\"\",\"linkedin\":\"https://www.linkedin.com/in/yash-sinha-ab17461a2/\",\"github\":\"https://github.com/yashsinha848\",\"twitter\":\"\"}}]}");
+module.exports = JSON.parse("{\"team\":[{\"name\":\"Laavart\",\"profile\":\"https://raw.githubusercontent.com/DSCVITBHOPAL/dscvitbhopal.github.io/master/public/images/team/design-team/1.jpg\",\"bio\":\"\",\"social\":{\"medium\":\"\",\"linkedin\":\"https://www.linkedin.com/in/laavart-laavart-b54835169/\",\"github\":\"https://github.com/ra-s-al-ghul\",\"twitter\":\"https://twitter.com/laavart\"}},{\"name\":\"Kripansh Sharma\",\"profile\":\"https://raw.githubusercontent.com/DSCVITBHOPAL/dscvitbhopal.github.io/master/public/images/team/design-team/2.jpg\",\"bio\":\"\",\"social\":{\"medium\":\"\",\"linkedin\":\"https://www.linkedin.com/in/kripanshsharma8/\",\"github\":\"https://github.com/RockmanKS\",\"twitter\":\"https://twitter.com/SharmaKripansh\"}},{\"name\":\"Shreyansh Kumar\",\"profile\":\"https://raw.githubusercontent.com/DSCVITBHOPAL/dscvitbhopal.github.io/master/public/images/team/design-team/3.jpg\",\"bio\":\"\",\"social\":{\"medium\":\"\",\"linkedin\":\"https://www.linkedin.com/in/shreyansh-kumar-9a8ab5184/\",\"github\":\"https://github.com/shreyansh786\",\"twitter\":\"\"}},{\"name\":\"Ghanishth Goyal\",\"profile\":\"https://raw.githubusercontent.com/DSCVITBHOPAL/dscvitbhopal.github.io/master/public/images/team/design-team/4.jpg\",\"bio\":\"\",\"social\":{\"medium\":\"\",\"linkedin\":\"https://www.linkedin.com/in/ghanishth-goyal-b01333192/\",\"github\":\"https://github.com/ghanishth09\",\"twitter\":\"https://twitter.com/ghanishth_goyal\"}},{\"name\":\"Sajal Gupta\",\"profile\":\"https://raw.githubusercontent.com/DSCVITBHOPAL/dscvitbhopal.github.io/master/public/images/team/design-team/5.jpg\",\"bio\":\"\",\"social\":{\"medium\":\"\",\"linkedin\":\"https://www.linkedin.com/in/sajal-gupta-7830881b5/\",\"github\":\"https://github.com/guptasajal411\",\"twitter\":\"\"}}]}");
 
 /***/ })
 
