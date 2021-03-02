@@ -63,9 +63,9 @@ And you are ready to make pull request.
 ## Project Contributors
 
 <img src="https://avatars.githubusercontent.com/u/37347831?s=60&v=4" alt="Smit Barmase"></img>
-<img src="https://avatars.githubusercontent.com/u/64676594?s=96&v=4" alt="Abhijeet Chatterjee"></img>
-<img src="https://avatars.githubusercontent.com/u/54549066?s=96&v=4" alt="Aadarsh S"></img>
-<img src="https://avatars.githubusercontent.com/u/53475167?s=96&v=4" alt="Neel Modi"></img>
+<img src="https://avatars.githubusercontent.com/u/64676594?s=60&v=4" alt="Abhijeet Chatterjee"></img>
+<img src="https://avatars.githubusercontent.com/u/54549066?s=60&v=4" alt="Aadarsh S"></img>
+<img src="https://avatars.githubusercontent.com/u/53475167?s=60&v=4" alt="Neel Modi"></img>
 
 **_Need help?_** 
 _Feel free to contact [Smit Barmase](https://github.com/smitbarmase)_
