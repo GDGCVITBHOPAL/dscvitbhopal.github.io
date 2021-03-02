@@ -15,22 +15,24 @@ A [DSC VIT Bhopal](https://dscvitbhopal.github.io/) website built with Next.js! 
 First, you need to install all dependecies:
 
 ```bash
-npm install
-# or
 yarn install
 ```
 
 then, run the development server:
 
 ```bash
-npm run dev
-# or
 yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 Your changes will get reflected as you edit.
+
+## Project Structure
+
+You can view project structure in [layout.md](https://github.com/DSCVITBHOPAL/dscvitbhopal.github.io/blob/master/layout.md) file.
+
+To update project strucutre use `npx create-layout` in root directory. For more options visit (create-layout)[https://github.com/smitbarmase/create-layout].
 
 ## Commands
 
@@ -60,14 +62,10 @@ And you are ready to make pull request.
 
 ## Project Contributors
 
-| SMIT BARMASE | ABHIJEET | AADARSH S |Neel Modi |
-| --- | --- | --- | --- |
-|![@Smit Barmase](https://avatars.githubusercontent.com/u/37347831?s=96&v=4)| ![@Abhijeet Chatterjee](https://avatars.githubusercontent.com/u/64676594?s=96&v=4) | ![@Aadarsh S](https://avatars.githubusercontent.com/u/54549066?s=96&v=4) | ![@Neel Modi](https://avatars.githubusercontent.com/u/53475167?s=96&v=4)
-| Web Lead @<br>DSC VIT-Bhopal<br>2020-21 | Web Team @<br>DSC VIT-Bhopal<br>2020-21 | Web Team @<br>DSC VIT-Bhopal<br>2020-21 | Web Team @<br>DSC VIT-Bhopal<br>2020-21 |
-| [Github](https://github.com/smitbarmase "Smit") | [Github](https://github.com/abhijeet007rocks8 "Abhijeet") | [Github](https://github.com/Itsaadarsh "Aadarsh") | [Github](https://github.com/neel229 "Neel")
-| [LinkedIn](https://www.linkedin.com/in/smitbarmase/ "Smit")| [LinkedIn](https://www.linkedin.com/in/abhijeet-chatterjee-445aa2195  "Abhijeet")| [LinkedIn](https://www.linkedin.com/in/itsaadarsh/ "Aadarsh") | [LinkedIn](https://www.linkedin.com/in/neel-modi-22909/ "Neel")
+<img src="https://avatars.githubusercontent.com/u/37347831?s=60&v=4" alt="Smit Barmase"></img>
+<img src="https://avatars.githubusercontent.com/u/64676594?s=96&v=4" alt="Abhijeet Chatterjee"></img>
+<img src="https://avatars.githubusercontent.com/u/54549066?s=96&v=4" alt="Aadarsh S"></img>
+<img src="https://avatars.githubusercontent.com/u/53475167?s=96&v=4" alt="Neel Modi"></img>
 
-
-
-
-> **_Need help?_** > **_Feel free to contact Smit @ [smitbarmase@outlook.com](mailto:smitbarmase@outlook.com)_**
+**_Need help?_** 
+_Feel free to contact [Smit Barmase](https://github.com/smitbarmase)_
