@@ -32,7 +32,7 @@ Your changes will get reflected as you edit.
 
 You can view project structure in [layout.md](https://github.com/DSCVITBHOPAL/dscvitbhopal.github.io/blob/master/layout.md) file.
 
-To update project strucutre use `npx create-layout` in root directory. For more options visit (create-layout)[https://github.com/smitbarmase/create-layout].
+To update project strucutre use `npx create-layout` in root directory. For more options visit [create-layout](https://github.com/smitbarmase/create-layout).
 
 ## Commands
 
