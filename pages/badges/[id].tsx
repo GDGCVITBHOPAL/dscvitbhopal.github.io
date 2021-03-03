@@ -6,8 +6,9 @@ import styled from "styled-components";
 
 import { RiLinkedinFill, RiCloseFill } from "react-icons/ri";
 import {Card} from '../../styles/BadgesStyles/BadgesCard';
-import {LinkedInButton} from '../../styles/BadgesStyles/LinkedInButton';
-
+import {LinkedInButton, Icon, ButtonsWrapper} from '../../styles/BadgesStyles/BadgeButtonWrapper';
+import {Image} from '../../styles/BadgesStyles/BadgeImages';
+import {TopWrapper, Close} from '../../styles/BadgesStyles/BadgeTopWrapper';
 
 type BadgeType = {
   id?: string;
@@ -122,11 +123,11 @@ const Badge = ({ badges }) => {
   );
 };
 
-const TopWrapper = styled.div`
-  display: flex;
-  justify-content: flex-end;
-  width: 100%;
-`;
+// const TopWrapper = styled.div`
+//   display: flex;
+//   justify-content: flex-end;
+//   width: 100%;
+// `;
 
 // const Card = styled.div`
 //   background: ${(p) => p.theme.color.background};
@@ -152,30 +153,30 @@ const TopWrapper = styled.div`
 //   }
 // `;
 
-const Image = styled.img`
-  width: 24rem;
-  height: 24rem;
-  object-fit: contain;
+// const Image = styled.img`
+//   width: 24rem;
+//   height: 24rem;
+//   object-fit: contain;
 
-  @media (max-width: ${(props) => props.theme.screen.xs}) {
-    width: 17rem;
-    height: 17rem;
-  }
-`;
+//   @media (max-width: ${(props) => props.theme.screen.xs}) {
+//     width: 17rem;
+//     height: 17rem;
+//   }
+// `;
 
-const Close = styled.button`
-  font-size: 28px;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  background: none;
-  color: #aaaaaa;
-`;
+// const Close = styled.button`
+//   font-size: 28px;
+//   border: none;
+//   outline: none;
+//   cursor: pointer;
+//   background: none;
+//   color: #aaaaaa;
+// `;
 
-const ButtonsWrapper = styled.div`
-  display: flex;
-  gap: 1rem;
-`;
+// const ButtonsWrapper = styled.div`
+//   display: flex;
+//   gap: 1rem;
+// `;
 
 // const LinkedInButton = styled.a`
 //   text-decoration: none;
@@ -191,9 +192,9 @@ const ButtonsWrapper = styled.div`
 //   font-weight: bold;
 // `;
 
-const Icon = styled.div`
-  margin-right: 4px;
-  font-size: 16px;
-`;
+// const Icon = styled.div`
+//   margin-right: 4px;
+//   font-size: 16px;
+// `;
 
 export default Badge;
