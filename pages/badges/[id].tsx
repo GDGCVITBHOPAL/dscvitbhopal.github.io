@@ -5,6 +5,9 @@ import Head from "next/head";
 import styled from "styled-components";
 
 import { RiLinkedinFill, RiCloseFill } from "react-icons/ri";
+import {Card} from '../../styles/BadgesStyles/BadgesCard';
+import {LinkedInButton} from '../../styles/BadgesStyles/LinkedInButton';
+
 
 type BadgeType = {
   id?: string;
@@ -125,29 +128,29 @@ const TopWrapper = styled.div`
   width: 100%;
 `;
 
-const Card = styled.div`
-  background: ${(p) => p.theme.color.background};
-  border: 1px solid ${(p) => p.theme.color.border};
-  border-radius: 5px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  width: 30rem;
-  height: 35rem;
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.02);
-  padding: 2rem;
+// const Card = styled.div`
+//   background: ${(p) => p.theme.color.background};
+//   border: 1px solid ${(p) => p.theme.color.border};
+//   border-radius: 5px;
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: space-between;
+//   align-items: center;
+//   width: 30rem;
+//   height: 35rem;
+//   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.02);
+//   padding: 2rem;
 
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -45%);
+//   position: absolute;
+//   left: 50%;
+//   top: 50%;
+//   transform: translate(-50%, -45%);
 
-  @media (max-width: ${(props) => props.theme.screen.xs}) {
-    width: 22rem;
-    height: 28rem;
-  }
-`;
+//   @media (max-width: ${(props) => props.theme.screen.xs}) {
+//     width: 22rem;
+//     height: 28rem;
+//   }
+// `;
 
 const Image = styled.img`
   width: 24rem;
@@ -174,19 +177,19 @@ const ButtonsWrapper = styled.div`
   gap: 1rem;
 `;
 
-const LinkedInButton = styled.a`
-  text-decoration: none;
-  color: white;
-  width: 77px;
-  height: 28px;
-  background: #0e76a8;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 4px;
-  font-size: 13px;
-  font-weight: bold;
-`;
+// const LinkedInButton = styled.a`
+//   text-decoration: none;
+//   color: white;
+//   width: 77px;
+//   height: 28px;
+//   background: #0e76a8;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   border-radius: 4px;
+//   font-size: 13px;
+//   font-weight: bold;
+// `;
 
 const Icon = styled.div`
   margin-right: 4px;

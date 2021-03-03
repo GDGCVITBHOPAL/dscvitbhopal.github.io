@@ -1,11 +1,12 @@
 import { useEffect, useState } from 'react';
-import styled from 'styled-components';
+//import styled from 'styled-components';
 import Head from 'next/head';
 
 // Components
-import { Container } from '../../components/global';
+//import { Container } from '../../components/global';
 import BadgeCard from '../../components/card/BadgeCard';
 import CommonFooter from '../../components/index/CommonFooter';
+import {ContainerStyledGrid} from '../../styles/ContainerStyledGrid';
 
 type Badge = {
   id?: string;
@@ -30,36 +31,36 @@ const Badges = () => {
 
   return (
     <>
-      <ContainerStyled>
+      <ContainerStyledGrid>
         <Head>
           <title>DSC VIT Bhopal - Badges</title>
         </Head>
         {badges.map(badge => (
           <BadgeCard key={badge.id} {...badge} />
         ))}
-      </ContainerStyled>
+      </ContainerStyledGrid>
       <CommonFooter />
     </>
   );
 };
 
-const ContainerStyled = styled(Container)`
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 1rem;
-  padding: 2.5rem 0rem;
+// const ContainerStyled = styled(Container)`
+//   display: grid;
+//   grid-template-columns: 1fr 1fr 1fr;
+//   gap: 1rem;
+//   padding: 2.5rem 0rem;
 
-  @media (max-width: ${props => props.theme.screen.md}) {
-    grid-template-columns: 1fr 1fr;
-  }
+//   @media (max-width: ${props => props.theme.screen.md}) {
+//     grid-template-columns: 1fr 1fr;
+//   }
 
-  @media (max-width: ${props => props.theme.screen.sm}) {
-    grid-template-columns: 1fr;
-  }
+//   @media (max-width: ${props => props.theme.screen.sm}) {
+//     grid-template-columns: 1fr;
+//   }
 
-  @media (max-width: ${props => props.theme.screen.xs}) {
-    padding: 2.5rem 3rem;
-  }
-`;
+//   @media (max-width: ${props => props.theme.screen.xs}) {
+//     padding: 2.5rem 3rem;
+//   }
+// `;
 
 export default Badges;
