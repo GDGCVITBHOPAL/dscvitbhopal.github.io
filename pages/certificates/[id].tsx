@@ -134,61 +134,6 @@ const Certificate = ({ certificates }) => {
   );
 };
 
-// const TopWrapper = styled.div`
-//   display: flex;
-//   justify-content: flex-end;
-//   width: 100%;
-// `;
-
-// const Card = styled.div`
-//   background: ${(p) => p.theme.color.background};
-//   border: 1px solid ${(p) => p.theme.color.border};
-//   border-radius: 5px;
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: space-between;
-//   align-items: center;
-//   width: 30rem;
-//   height: 35rem;
-//   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.02);
-//   padding: 2rem;
-
-//   position: absolute;
-//   left: 50%;
-//   top: 50%;
-//   transform: translate(-50%, -45%);
-
-//   @media (max-width: ${(props) => props.theme.screen.xs}) {
-//     width: 22rem;
-//     height: 28rem;
-//   }
-// `;
-
-// const Image = styled.img`
-//   width: 24rem;
-//   height: 24rem;
-//   object-fit: contain;
-
-//   @media (max-width: ${(props) => props.theme.screen.xs}) {
-//     width: 17rem;
-//     height: 17rem;
-//   }
-// `;
-
-// const Close = styled.button`
-//   font-size: 28px;
-//   border: none;
-//   outline: none;
-//   cursor: pointer;
-//   background: none;
-//   color: #aaaaaa;
-// `;
-
-// const ButtonsWrapper = styled.div`
-//   display: flex;
-//   gap: 1rem;
-// `;
-
 const DownloadButton = styled.a`
   text-decoration: none;
   color: white;
@@ -202,24 +147,5 @@ const DownloadButton = styled.a`
   font-size: 13px;
   font-weight: bold;
 `
-
-// const LinkedInButton = styled.a`
-//   text-decoration: none;
-//   color: white;
-//   width: 77px;
-//   height: 28px;
-//   background: #0e76a8;
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   border-radius: 4px;
-//   font-size: 13px;
-//   font-weight: bold;
-// `;
-
-// const Icon = styled.div`
-//   margin-right: 4px;
-//   font-size: 16px;
-// `;
 
 export default Certificate;
