@@ -62,10 +62,27 @@ And you are ready to make pull request.
 
 ## Project Contributors
 
-<img src="https://avatars.githubusercontent.com/u/37347831?s=60&v=4" alt="Smit Barmase"></img>
-<img src="https://avatars.githubusercontent.com/u/64676594?s=60&v=4" alt="Abhijeet Chatterjee"></img>
-<img src="https://avatars.githubusercontent.com/u/54549066?s=60&v=4" alt="Aadarsh S"></img>
-<img src="https://avatars.githubusercontent.com/u/53475167?s=60&v=4" alt="Neel Modi"></img>
+<a href="https://github.com/smitbarmase">
+  <img src="https://github.com/smitbarmase.png?size=50" alt="Smit Barmase" />
+</a>
+<a href="https://github.com/abhijeet007rocks8">
+  <img src="https://github.com/abhijeet007rocks8.png?size=50" alt="Abhijeet Chatterjee" />
+</a>
+<a href="https://github.com/Itsaadarsh">
+  <img src="https://github.com/Itsaadarsh.png?size=50" alt="Aadarsh S" />
+</a>
+<a href="https://github.com/neel229">
+  <img src="https://github.com/neel229.png?size=50" alt="Neel Modi" />
+</a>
+<a href="https://github.com/mizanxali">
+  <img src="https://github.com/mizanxali.png?size=50" alt="Mizan Ali" />
+</a>
+<a href="https://github.com/woinbo">
+  <img src="https://github.com/woinbo.png?size=50" alt="Ankit Sagar" />
+</a>
+<a href="https://github.com/onkar-shaligram">
+  <img src="https://github.com/onkar-shaligram.png?size=50" alt="Onkar Shaligram" />
+</a>
 
 **_Need help?_** 
 _Feel free to contact [Smit Barmase](https://github.com/smitbarmase)_
