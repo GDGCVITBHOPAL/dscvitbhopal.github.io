@@ -1,13 +1,13 @@
 (window["webpackJsonp_N_E"] = window["webpackJsonp_N_E"] || []).push([[2],{
 
-/***/ "./data/events.json":
-/*!**************************!*\
-  !*** ./data/events.json ***!
-  \**************************/
-/*! exports provided: events, default */
+/***/ "./data/certificates-data.json":
+/*!*************************************!*\
+  !*** ./data/certificates-data.json ***!
+  \*************************************/
+/*! exports provided: certificates, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"events\":[{\"title\":\"Develop Your First Game Using JavaScript\",\"content\":\"Web Development still remains to be an important element of not only marketing a business, but also the way we want to portray ourselves through our portfolios, to host projects, and innumerable more uses.\",\"date\":\"Sun, Nov 22, 3:00 PM (IST)\",\"link\":\"https://dsc.community.dev/events/details/developer-student-clubs-vellore-institute-of-technology-bhopal-presents-develop-your-first-game-using-javascript/\",\"cover\":\"\"},{\"title\":\"Get it Done with the Experts\",\"content\":\"Competitive Programming is quite the buzzword these days, and for a good reason. The main objective of Competitive Programming is to encourage problem-solving in a logical and mathematical way, which is an incredibly desirable skill in programmers.\",\"date\":\"Sun, Nov 15, 5:00 PM (IST)\",\"link\":\"https://dsc.community.dev/events/details/developer-student-clubs-vellore-institute-of-technology-bhopal-presents-get-it-done-with-the-experts/\"},{\"title\":\"Inaugural Ceremony of DSC VIT Bhopal\",\"content\":\"Welcome Address by Dr. L. Shakkeera, Faculty Coordinator, DSC, Senior Assistant Professor, SCSE Academic Coordinator, VIT Bhopal University\",\"date\":\"Fri, Oct 16, 11:00 AM (IST)\",\"link\":\"https://dsc.community.dev/events/details/developer-student-clubs-vellore-institute-of-technology-bhopal-presents-inaugural-ceremony-of-dsc-vit-bhopal/\"},{\"title\":\"Getting started with Google Actions\",\"content\":\"Google actions are the applets of Google Assistant which supports in extended functionality of the assistant and to say it is the development platform of the assistant whom we call with just a couple of words.\",\"date\":\"Fri, Oct 9, 8:00 PM (IST)\",\"link\":\"https://dsc.community.dev/events/details/developer-student-clubs-vellore-institute-of-technology-bhopal-presents-getting-started-with-google-actions/\"},{\"title\":\"Introduction to open source and Git\",\"content\":\"This session will walk you through the core concepts of GIT / GitHub. We have also invited a guest speaker, Kunal Mehta who is the Google Summer of Code Student Developer. He will be happy to give students the guidance and insight required for the same.\",\"date\":\"Thu, Oct 8, 1:00 PM (IST)\",\"link\":\"https://dsc.community.dev/events/details/developer-student-clubs-vellore-institute-of-technology-bhopal-presents-introduction-to-open-source-and-git/\"},{\"title\":\"Information Session, DSC VIT BHOPAL\",\"content\":\"Developer Student Clubs are university based community groups for students interested in Google developer technologies. Students from all undergraduate or graduate programs with an interest in growing as a developer are welcome.\",\"date\":\"Sun, Oct 4, 12:00 PM (IST)\",\"link\":\"https://dsc.community.dev/events/details/developer-student-clubs-vellore-institute-of-technology-bhopal-presents-information-session-dsc-vit-bhopal/\"}]}");
+module.exports = JSON.parse("{\"certificates\":[{\"id\":\"1\",\"certificate\":\"/images/certificates/1.png\",\"name\":\"John Doe\"},{\"id\":\"2\",\"certificate\":\"/images/certificates/2.png\",\"name\":\"John Doe\"},{\"id\":\"3\",\"certificate\":\"/images/certificates/3.png\",\"name\":\"John Doe\"}]}");
 
 /***/ })
 

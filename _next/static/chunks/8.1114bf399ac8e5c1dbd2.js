@@ -1,0 +1,1 @@
+(window.webpackJsonp_N_E=window.webpackJsonp_N_E||[]).push([[8],{"87xr":function(e){e.exports=JSON.parse('{"certificates":[{"id":"1","certificate":"/images/certificates/1.png","name":"John Doe"},{"id":"2","certificate":"/images/certificates/2.png","name":"John Doe"},{"id":"3","certificate":"/images/certificates/3.png","name":"John Doe"}]}')}}]);

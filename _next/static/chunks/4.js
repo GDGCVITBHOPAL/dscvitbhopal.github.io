@@ -1,13 +1,13 @@
 (window["webpackJsonp_N_E"] = window["webpackJsonp_N_E"] || []).push([[4],{
 
-/***/ "./data/sponsors.json":
-/*!****************************!*\
-  !*** ./data/sponsors.json ***!
-  \****************************/
-/*! exports provided: 0, default */
+/***/ "./data/socialMediaHandles.json":
+/*!**************************************!*\
+  !*** ./data/socialMediaHandles.json ***!
+  \**************************************/
+/*! exports provided: handles, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("[{\"id\":1,\"name\":\"Coding Ninjas\",\"image\":\"/images/sponsors/cn.jpg\"}]");
+module.exports = JSON.parse("{\"handles\":[{\"discord\":\"https://discord.com/invite/3ufQSct\",\"instagram\":\"https://www.instagram.com/dscvitbhopal/\",\"website\":\"https://dscvitbhopal.github.io/\",\"youtube\":\"https://www.youtube.com/channel/UCVr5tPwyUH8rJd5yEhBd94w\",\"twitter\":\"https://twitter.com/dsc_vit\",\"linkedin\":\"https://www.linkedin.com/company/dscvitbhopal/\",\"facebook\":\"https://www.facebook.com/dscvitbhopal\",\"medium\":\"https://medium.com/dsc-vit-bhopal\",\"github\":\"https://github.com/DSCVITBHOPAL\"}]}");
 
 /***/ })
 
