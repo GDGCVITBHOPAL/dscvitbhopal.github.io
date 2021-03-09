@@ -54,7 +54,7 @@ const Event = () => {
         ))}
   
     </ContainerStyled>
-    <CommonFooter />
+    {/* <CommonFooter /> */}
     </>
   );
 };
