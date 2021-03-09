@@ -115,6 +115,7 @@ const ContainerStyled = styled(Container)`
   justify-content: space-between;
   align-items: center;
   padding: 1rem 0rem;
+  
   @media (max-width: ${(props) => props.theme.screen.xs}) {
     padding: 1rem 1rem;
   }

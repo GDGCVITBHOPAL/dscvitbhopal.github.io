@@ -60,6 +60,7 @@ const Title = styled.div`
   @media (max-width: ${(props) => props.theme.screen.xs}) {
     font-size: 30px;
   }
+  
 `;
 
 const Info = styled.div`

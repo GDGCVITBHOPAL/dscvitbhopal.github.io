@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Section = styled.section`
   padding: 5rem 0rem;
+  
 `;
 
 export const Container = styled.div`

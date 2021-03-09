@@ -2,9 +2,11 @@ import { useEffect, useState } from "react";
 import styled from "styled-components";
 import Head from "next/head";
 
+
 // Components
 import { Container } from "../components/global";
 import EventCard from "../components/card/EventCard";
+import fire from "../config/firebase_config";
 
 type Event = {
   title?: string;
@@ -13,23 +15,25 @@ type Event = {
   date?: string;
 };
 
-type EventData = {
-  default: {
-    events: Event[];
-  };
-};
 
 const Event = () => {
   const [events, setEvents] = useState<Event[]>([]);
   const [search, setSearch] = useState("");
 
   useEffect(() => {
-    import("../data/events.json").then((data: EventData) => {
-      setEvents(data.default.events);
-    });
+    fire.collection('events').onSnapshot(snap => {
+        const data = snap.docs.map(doc => ({
+          ...doc.data(),
+        }));
+        data.forEach(e => {
+          console.log(e);
+        });
+        setEvents(data);
+      });
   }, []);
-
+  
   return (
+    <>
     <ContainerStyled>
       <Head>
         <title>DSC VIT Bhopal - Events</title>
@@ -48,7 +52,10 @@ const Event = () => {
         .map((event, idx) => (
           <EventCard key={idx} {...event} />
         ))}
+  
     </ContainerStyled>
+    <CommonFooter />
+    </>
   );
 };
 
