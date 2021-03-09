@@ -9,7 +9,7 @@ export const Container = styled.div`
   margin: 0px auto;
   /* Extra small devices (phones, 575px and down) */
   @media (max-width: ${(props) => props.theme.screen.xs}) {
-    padding: 0rem 2rem;
+    padding: 0rem 1rem;
   }
 
   /* Small devices (portrait tablets and large phones, 575px and up) */

@@ -25,6 +25,7 @@ const NAV_ITEMS = [
   { title: "Articles", link: "/articles" },
   { title: "Events", link: "/events" },
   { title: "Badges", link: "/badges" },
+  { title: "Certificates", link: "/certificates" }
 ];
 
 const Navbar = (props) => {

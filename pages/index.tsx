@@ -1,14 +1,15 @@
-import React from "react";
-import Head from "next/head";
+import React from 'react';
+import Head from 'next/head';
 
-import Header from "../components/index/header";
-import About from "../components/index/about";
-import Team from "../components/index/team";
-import Article from "../components/index/articles";
-import Join from "../components/index/join";
-import Footer from "../components/index/footer";
-import Events from "../components/index/events";
-import Badges from "../components/index/badges";
+import Header from '../components/index/header';
+import About from '../components/index/about';
+import Team from '../components/index/team';
+import Article from '../components/index/articles';
+import Join from '../components/index/join';
+import Events from '../components/index/events';
+import Badges from '../components/index/badges';
+import Sponsors from "../components/index/sponsors"
+import CommonFooter from '../components/index/CommonFooter';
 
 const Home = () => {
   return (
@@ -22,8 +23,9 @@ const Home = () => {
       <Article />
       <Events />
       <Badges />
+      <Sponsors />
       <Join />
-      <Footer />
+      <CommonFooter />
     </>
   );
 };

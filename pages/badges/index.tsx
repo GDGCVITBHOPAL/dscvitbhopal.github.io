@@ -1,10 +1,10 @@
-import { useEffect, useState } from "react";
-import styled from "styled-components";
-import Head from "next/head";
+import { useEffect, useState } from 'react';
+import Head from 'next/head';
 
 // Components
-import { Container } from "../../components/global";
-import BadgeCard from "../../components/card/BadgeCard";
+import BadgeCard from '../../components/card/BadgeCard';
+import CommonFooter from '../../components/index/CommonFooter';
+import {ContainerStyledGrid} from '../../styles/ContainerStyledGrid';
 
 type Badge = {
   id?: string;
@@ -22,40 +22,24 @@ const Badges = () => {
   const [badges, setBadges] = useState<Badge[]>([]);
 
   useEffect(() => {
-    import("../../data/badges-data.json").then((data: BadgesData) => {
+    import('../../data/badges-data.json').then((data: BadgesData) => {
       setBadges(data.default.badges);
     });
   }, []);
 
   return (
-    <ContainerStyled>
-      <Head>
-        <title>DSC VIT Bhopal - Badges</title>
-      </Head>
-      {badges.map((badge) => (
-        <BadgeCard key={badge.id} {...badge} />
-      ))}
-    </ContainerStyled>
+    <>
+      <ContainerStyledGrid>
+        <Head>
+          <title>DSC VIT Bhopal - Badges</title>
+        </Head>
+        {badges.map(badge => (
+          <BadgeCard key={badge.id} {...badge} />
+        ))}
+      </ContainerStyledGrid>
+      <CommonFooter />
+    </>
   );
 };
-
-const ContainerStyled = styled(Container)`
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 1rem;
-  padding: 2.5rem 0rem;
-
-  @media (max-width: ${(props) => props.theme.screen.md}) {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  @media (max-width: ${(props) => props.theme.screen.sm}) {
-    grid-template-columns: 1fr;
-  }
-
-  @media (max-width: ${(props) => props.theme.screen.xs}) {
-    padding: 2.5rem 3rem;
-  }
-`;
 
 export default Badges;

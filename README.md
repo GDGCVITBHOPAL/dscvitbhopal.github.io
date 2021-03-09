@@ -1,30 +1,88 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Web @ DSC VIT
+
+A [DSC VIT Bhopal](https://dscvitbhopal.github.io/) website built with Next.js! PRs welcome.
+
+## System Requirements
+
+```
+1. Node.js 10.13 or later
+2. MacOS, Windows (including WSL), and Linux are supported
+3. Yarn
+```
 
 ## Getting Started
 
-First, run the development server:
+First, you need to install all dependecies:
 
 ```bash
-npm run dev
-# or
+yarn install
+```
+
+then, run the development server:
+
+```bash
 yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Your changes will get reflected as you edit.
 
-## Learn More
+## Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+You can view project structure in [layout.md](https://github.com/DSCVITBHOPAL/dscvitbhopal.github.io/blob/master/layout.md) file.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+To update project strucutre use `npx create-layout` in root directory. For more options visit [create-layout](https://github.com/smitbarmase/create-layout).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Commands
 
-## Deploy on Vercel
+`dev` - Runs next dev which starts Next.js in development mode.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+`build` - Runs next build which builds the application for production usage.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+`start` - Runs next start which starts a Next.js production server.
+
+`export` - Uses next for static site generation.
+
+## Deploy
+
+`deploy` - Uses `build` along with `export`, and deploys it to gh-pages.
+
+## Contribution
+
+If you are looking forward to contributing:
+
+```bash
+git checkout -b new_branch_name
+```
+
+Make your changes to new branch and then, push it to your forked repository.
+
+And you are ready to make pull request.
+
+## Project Contributors
+
+<a href="https://github.com/smitbarmase">
+  <img src="https://github.com/smitbarmase.png?size=50" alt="Smit Barmase" />
+</a>
+<a href="https://github.com/abhijeet007rocks8">
+  <img src="https://github.com/abhijeet007rocks8.png?size=50" alt="Abhijeet Chatterjee" />
+</a>
+<a href="https://github.com/Itsaadarsh">
+  <img src="https://github.com/Itsaadarsh.png?size=50" alt="Aadarsh S" />
+</a>
+<a href="https://github.com/neel229">
+  <img src="https://github.com/neel229.png?size=50" alt="Neel Modi" />
+</a>
+<a href="https://github.com/mizanxali">
+  <img src="https://github.com/mizanxali.png?size=50" alt="Mizan Ali" />
+</a>
+<a href="https://github.com/woinbo">
+  <img src="https://github.com/woinbo.png?size=50" alt="Ankit Sagar" />
+</a>
+<a href="https://github.com/onkar-shaligram">
+  <img src="https://github.com/onkar-shaligram.png?size=50" alt="Onkar Shaligram" />
+</a>
+
+**_Need help?_** 
+_Feel free to contact [Smit Barmase](https://github.com/smitbarmase)_
