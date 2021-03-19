@@ -1,0 +1,1 @@
+(window.webpackJsonp_N_E=window.webpackJsonp_N_E||[]).push([[10],{XCqU:function(e){e.exports=JSON.parse('[{"id":1,"name":"DSC WOW","image":"/images/partners/wow.jpeg"},{"id":2,"name":"The Coding Culture","image":"/images/partners/tcc.png"},{"id":3,"name":"AIBlitz #7","image":""}]')}}]);

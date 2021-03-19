@@ -1,0 +1,1 @@
+(window.webpackJsonp_N_E=window.webpackJsonp_N_E||[]).push([[13],{NPz5:function(s){s.exports=JSON.parse('[{"id":1,"name":"Coding Ninjas","image":"/images/sponsors/cn.jpg"},{"id":2,"name":"StreamYard","image":"/images/sponsors/sy.jpg"},{"id":3,"name":"GiveMyCertificate","image":"/images/sponsors/gmc.jpeg"}]')}}]);
