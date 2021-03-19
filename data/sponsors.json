@@ -3,5 +3,15 @@
     "id": 1,
     "name": "Coding Ninjas",
     "image": "/images/sponsors/cn.jpg"
+  },
+  {
+    "id": 2,
+    "name": "StreamYard",
+    "image": "/images/sponsors/sy.jpg"
+  },
+  {
+    "id": 3,
+    "name": "GiveMyCertificate",
+    "image": "/images/sponsors/gmc.jpeg"
   }
 ]
