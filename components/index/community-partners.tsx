@@ -1,19 +1,19 @@
 import React from "react";
 import styled from "styled-components";
-import sponsors from "../../data/sponsors.json";
+import communityPartners from "../../data/community-partners.json";
 
 import { Section, Container } from "../global";
 
-const Sponsors = () => (
-  <Wrapper id="sponsors">
+const CommunityPartners = () => (
+  <Wrapper id="communitypartners">
     <Container>
       <TextGroup>
-        <Title>Our Sponsors</Title>
+        <Title>Community Partners</Title>
         <CardContainer>
-          {sponsors.map((sponsor, id) => (
+          {communityPartners.map((partner, id) => (
             <Card key={id}>
-              <Image src={sponsor.image} alt={sponsor.name}></Image>
-              <Name>{sponsor.name}</Name>
+              <Image src={partner.image} alt={partner.name}></Image>
+              <Name>{partner.name}</Name>
             </Card>
           ))}
         </CardContainer>
@@ -77,10 +77,6 @@ const Title = styled.div`
   @media (max-width: ${(props) => props.theme.screen.md}) {
     font-size: 38px;
   }
-  //   @media (max-width: ${(props) => props.theme.screen.xs}) {
-  //     font-size: 30px;
-  //   }
-  //
 `;
 
-export default Sponsors;
+export default CommunityPartners;

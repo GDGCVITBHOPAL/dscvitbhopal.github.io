@@ -8,7 +8,7 @@ import { lightTheme } from "../../styles/theme";
 
 const Badges = () => {
   return (
-    <Wrapper>
+    <Section>
       <Container>
         <TextGroup>
           <Title>Badges</Title>
@@ -25,16 +25,10 @@ const Badges = () => {
           </Flex>
         </TextGroup>
       </Container>
-    </Wrapper>
+    </Section>
   );
 };
 export default Badges;
-
-const Wrapper = styled(Section)`
-  background-color: ${(props) => props.theme.color.background};
-  clip-path: polygon(0 3vw, 100% 0, 100% 100%, 0 100%);
-  padding: 10rem 0;
-`;
 
 const TextGroup = styled.div`
   display: flex;
