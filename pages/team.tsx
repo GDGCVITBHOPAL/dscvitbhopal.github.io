@@ -9,6 +9,9 @@ import MemberCard from "../components/card/MemberCard";
 import MemberModal from "../components/modal/MemberModal";
 import CommonFooter from "../components/index/CommonFooter";
 
+//data
+import TeamsInfo from "../data/teams.json";
+
 type Member = {
   title?: string;
   name?: string;
@@ -16,14 +19,32 @@ type Member = {
   profile?: string;
 };
 
+type ActiveYear = "2020" | "2021";
+
 type TeamData = {
   default: {
-    team: Member[];
+    [key: string]: Member[];
+  };
+};
+
+type YearItemProps = {
+  isActive: boolean;
+};
+
+type Team = {
+  relativeLocation: string;
+};
+
+type TeamsInfo = {
+  default: {
+    [key: string]: Team[];
   };
 };
 
 const Team = () => {
   const [modalMember, setModalMember] = useState<Member | null>(null);
+  const [activeYear, setActiveYear] = useState<ActiveYear>("2021");
+  const [teams, setTeams] = useState<TeamsInfo | Object>({});
 
   const handleModalToggle = (member: Member | null) => {
     setModalMember(member);
@@ -41,73 +62,69 @@ const Team = () => {
             handleModalToggle={handleModalToggle}
           />
         )}
-        <TeamSection
-          title="Core Team"
-          handleModalToggle={handleModalToggle}
-          relativeLocation="team.json"
-        />
-        <TeamSection
-          title="Web Team"
-          handleModalToggle={handleModalToggle}
-          relativeLocation="team/web-team.json"
-        />
-        <TeamSection
-          title="ML Team"
-          handleModalToggle={handleModalToggle}
-          relativeLocation="team/ml-team.json"
-        />
-        <TeamSection
-          title="Android Team"
-          handleModalToggle={handleModalToggle}
-          relativeLocation="team/android-team.json"
-        />
-        <TeamSection
-          title="Design Team"
-          handleModalToggle={handleModalToggle}
-          relativeLocation="team/design-team.json"
-        />
-        <TeamSection
-          title="Content Team"
-          handleModalToggle={handleModalToggle}
-          relativeLocation="team/content-team.json"
-        />
-        <TeamSection
-          title="Management Team"
-          handleModalToggle={handleModalToggle}
-          relativeLocation="team/management-team.json"
-        />
+
+        <YearRow>
+          {["2021", "2020"].map((year: ActiveYear) => (
+            <YearItem
+              key={year}
+              isActive={year === activeYear}
+              onClick={() => setActiveYear(year)}
+            >
+              {year}
+            </YearItem>
+          ))}
+        </YearRow>
+
+        {Object.keys(TeamsInfo).map((teamName: string) => (
+          <TeamSection
+            key={teamName}
+            title={teamName}
+            handleModalToggle={handleModalToggle}
+            relativeLocation={TeamsInfo[teamName].relativeLocation}
+            activeYear={activeYear}
+          />
+        ))}
       </Container>
       <CommonFooter />
     </>
   );
 };
 
-const TeamSection = ({ title, handleModalToggle, relativeLocation }) => {
+const TeamSection = ({
+  title,
+  handleModalToggle,
+  relativeLocation,
+  activeYear,
+}) => {
   const [team, setTeam] = useState<Member[]>([]);
   const [expanded, setExpanded] = useState(true);
 
   import(`../data/${relativeLocation}`).then((data: TeamData) => {
-    setTeam(data.default.team);
+    setTeam(data.default[activeYear]);
   });
 
   return (
-    <SectionStyled>
-      <HeaderStyled onClick={() => setExpanded(!expanded)}>
-        <TitleStyled>{title}</TitleStyled>
-        {expanded ? <RiArrowDownSLine /> : <RiArrowRightSLine />}
-      </HeaderStyled>
-      {expanded && (
-        <GridStyled>
-          {team.map((member, idx) => (
-            <MemberCard
-              key={idx}
-              member={member}
-              handleModalToggle={handleModalToggle}
-            />
-          ))}
-        </GridStyled>
+    <>
+      {team[0] && (
+        <SectionStyled>
+          <HeaderStyled onClick={() => setExpanded(!expanded)}>
+            <TitleStyled>{title}</TitleStyled>
+            {expanded ? <RiArrowDownSLine /> : <RiArrowRightSLine />}
+          </HeaderStyled>
+          {expanded && (
+            <GridStyled>
+              {team.map((member, idx) => (
+                <MemberCard
+                  key={idx}
+                  member={member}
+                  handleModalToggle={handleModalToggle}
+                />
+              ))}
+            </GridStyled>
+          )}
+        </SectionStyled>
       )}
-    </SectionStyled>
+    </>
   );
 };
 
@@ -130,6 +147,25 @@ const TitleStyled = styled.div`
   font-weight: bold;
 `;
 
+const YearRow = styled.div`
+  display: flex;
+`;
+const YearItem = styled.h1<YearItemProps>`
+  padding: 0;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-right: 3px solid grey;
+  cursor: ${({ isActive }) => (isActive ? "default" : "pointer")};
+  color: ${({ isActive }) => (isActive ? "dodgerblue" : "default")};
+
+  &:first-child {
+    padding-left: 0;
+  }
+  &:last-child {
+    border: 0;
+  }
+`;
+
 const GridStyled = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -145,7 +181,7 @@ const GridStyled = styled.div`
 
   @media (max-width: ${(props) => props.theme.screen.xs}) {
     grid-template-columns: 1fr 1fr;
-    grid-column-gap: .6rem;
+    grid-column-gap: 0.6rem;
   }
 `;
 
