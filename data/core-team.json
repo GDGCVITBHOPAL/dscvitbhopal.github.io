@@ -1,5 +1,148 @@
 {
-  "team": [
+  "2021": [
+    {
+      "title": "DSC Lead",
+      "name": "Ishika Kulkarni",
+      "profile": "/images/members/Ishika13.jpeg",
+      "bio": "",
+      "social": {
+        "linkedin": "https://linkedin.com/in/ishikakulkarni/",
+        "github": "https://github.com/Ishika13",
+        "twitter": "https://twitter.com/KulkarniIshika"
+      }
+    },
+    {
+      "title": "Tech Lead",
+      "name": "Aman Sharma",
+      "profile": "/images/members/amansharma2910.jpg",
+      "bio": "",
+      "social": {
+        "linkedin": "https://www.linkedin.com/in/amansharma2910/",
+        "github": "https://github.com/amansharma2910",
+        "twitter": "https://twitter.com/amansharma2910"
+      }
+    },
+    {
+      "title": "Web Lead",
+      "name": "Abhijeet Chatterjee",
+      "profile": "/images/members/abhijeet007rocks8.jpg",
+      "bio": "",
+      "social": {
+        "linkedin": "https://www.linkedin.com/in/abhijeet-chatterjee-445aa2195/",
+        "github": "https://github.com/abhijeet007rocks8",
+        "twitter": "https://twitter.com/Abhijee58090064"
+      }
+    },
+    {
+      "title": "Web Co-Lead",
+      "name": "Akshit Gupta",
+      "profile": "/images/members/Akshit1311.png",
+      "bio": "",
+      "social": {
+        "medium": "https://medium.com/@axit",
+        "linkedin": "https://www.linkedin.com/in/akshit1311/",
+        "github": "https://github.com/Akshit1311",
+        "twitter": "https://twitter.com/0xaxit"
+      }
+    },
+    {
+      "title": "ML Lead",
+      "name": "Aayush Mishra",
+      "profile": "/images/members/AM1CODES.jpg",
+      "bio": "",
+      "social": {
+        "linkedin": "https://www.linkedin.com/in/aayushmishra1512",
+        "github": "https://github.com/AM1CODES",
+        "twitter": "https://twitter.com/thatshutterboi"
+      }
+    },
+    {
+      "title": "ML Co-Lead",
+      "name": "Jackson Jacob",
+      "profile": "/images/members/JackJJCodes.jpeg",
+      "bio": "",
+      "social": {
+        "linkedin": "https://www.linkedin.com/in/jackson-sondi-0100/",
+        "github": "https://github.com/JackJJCodes"
+      }
+    },
+    {
+      "title": "Android Lead",
+      "name": "Dhruv Mehta",
+      "profile": "/images/members/Dhruv-194.jpg",
+      "bio": "",
+      "social": {
+        "linkedin": "http://linkedin.com/in/dhruv-mehta-194dev/",
+        "github": "https://github.com/Dhruv-194",
+        "twitter": "https://twitter.com/wilder569"
+      }
+    },
+    {
+      "title": "Android Co-Lead",
+      "name": "Vishesh Tripathi",
+      "profile": "/images/members/Vishesht27.jpeg",
+      "bio": "",
+      "social": {
+        "linkedin": "https://www.linkedin.com/in/vishesh-tripathi/",
+        "github": "https://github.com/Vishesht27",
+        "twitter": "https://twitter.com/vishesht27"
+      }
+    },
+    {
+      "title": "Content Writing and Digital Marketing Lead",
+      "name": "Sidhved Warik",
+      "profile": "/images/members/Sidhved.jpeg",
+      "bio": "",
+      "social": {
+        "linkedin": "http://www.linkedin.com/in/sidhved-warik/",
+        "github": "https://github.com/Sidhved"
+      }
+    },
+    {
+      "title": "Design Lead",
+      "name": "Laavart",
+      "profile": "/images/members/Laavart.png",
+      "bio": "",
+      "social": {
+        "linkedin": "https://www.linkedin.com/in/laavart-b54835169/",
+        "github": "https://github.com/laavart"
+      }
+    },
+    {
+      "title": "Management Lead",
+      "name": "Vidushi Shukla",
+      "profile": "/images/members/vidushi07.jpg",
+      "bio": "",
+      "social": {
+        "linkedin": "https://www.linkedin.com/in/vidushi-shukla-5166a2201/",
+        "github": "https://github.com/vidushi07"
+      }
+    },
+    {
+      "title": "Outreach lead",
+      "name": "Nandita Jain",
+      "profile": "/images/members/nandita-jain.jpg",
+      "bio": "",
+      "social": {
+        "linkedin": "https://www.linkedin.com/in/nandita-jain026",
+        "github": "https://github.com/nandita-jain",
+        "twitter": "https://twitter.com/Nandita12019266"
+      }
+    },
+    {
+      "title": "WTM Lead",
+      "name": "Anamika Tripathi",
+      "profile": "/images/members/Ana1601-code.jpeg",
+      "bio": "",
+      "social": {
+        "linkedin": "https://www.linkedin.com/in/anamika-tripathi1601",
+        "github": "https://github.com/Ana1601-code",
+        "twitter": "https://twitter.com/itismeAnamika"
+      }
+    }
+  ],
+
+  "2020": [
     {
       "title": "DSC Lead",
       "name": "Abhishek Srivastava",

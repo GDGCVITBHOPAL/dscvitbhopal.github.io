@@ -1,0 +1,23 @@
+{
+  "Core Team": {
+    "relativeLocation": "core-team.json"
+  },
+  "Web Team": {
+    "relativeLocation": "team/web-team.json"
+  },
+  "ML Team": {
+    "relativeLocation": "team/ml-team.json"
+  },
+  "Android Team": {
+    "relativeLocation": "team/android-team.json"
+  },
+  "Design Team": {
+    "relativeLocation": "team/design-team.json"
+  },
+  "Content Team": {
+    "relativeLocation": "team/content-team.json"
+  },
+  "Management Team": {
+    "relativeLocation": "team/management-team.json"
+  }
+}
