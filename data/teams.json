@@ -1,6 +1,6 @@
 {
   "Core Team": {
-    "relativeLocation": "core-team.json"
+    "relativeLocation": "team/core-team.json"
   },
   "Web Team": {
     "relativeLocation": "team/web-team.json"
