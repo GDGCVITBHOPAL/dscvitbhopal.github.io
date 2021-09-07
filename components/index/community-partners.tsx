@@ -32,7 +32,8 @@ const CardContainer = styled.div`
   display: flex;
   flex-direction: row;
   width: 100%;
-  overflow-x: scroll;
+  overflow-x: auto;
+  flex-wrap: wrap;
 `;
 
 const Card = styled.div`
