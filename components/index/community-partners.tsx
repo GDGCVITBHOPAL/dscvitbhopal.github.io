@@ -51,12 +51,14 @@ const Card = styled.div`
 `;
 
 const Image = styled.img`
-  height: 50%;
+  height: 45%;
   flex: 1;
+  max-width:-webkit-fill-available;
 `;
 
 const Name = styled.h3`
   color: black;
+  text-align:center;
 `;
 
 const TextGroup = styled.div`

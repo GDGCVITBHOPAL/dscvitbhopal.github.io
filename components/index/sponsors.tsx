@@ -32,7 +32,7 @@ const CardContainer = styled.div`
   display: flex;
   flex-direction: row;
   width: 100%;
-  flex-wrap: wrap; ;
+  flex-wrap: wrap; 
 `;
 
 const Card = styled.div`
@@ -50,12 +50,14 @@ const Card = styled.div`
 `;
 
 const Image = styled.img`
-  height: 50%;
+  height: 48%;
   flex: 1;
+  max-width:-webkit-fill-available;
 `;
 
 const Name = styled.h3`
   color: black;
+  text-align:center;
 `;
 
 const TextGroup = styled.div`

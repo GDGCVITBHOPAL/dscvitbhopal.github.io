@@ -106,7 +106,7 @@ const MobileTitle = styled.div`
     font-size: 10px;
     font-weight: bolder;
     text-align: center;
-    padding-bottom: 1.5rem;
+    padding: 1.5rem 0;
   }
 `;
 
