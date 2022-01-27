@@ -1,5 +1,50 @@
 {
-  "2021": [],
+  "2021": [
+    {
+      "name": "Shireen Jain",
+      "profile": "images/team/content-team/2021/1.jpg",
+      "bio": "",
+      "social": {
+        "medium": "",
+        "linkedin": "",
+        "github": "",
+        "twitter": ""
+      }
+    },
+    {
+      "name": "Adithya N Biya",
+      "profile": "images/team/content-team/2021/2.jpg",
+      "bio": "",
+      "social": {
+        "medium": "",
+        "linkedin": "",
+        "github": "",
+        "twitter": ""
+      }
+    },
+    {
+      "name": "Akanksha Verma",
+      "profile": "images/team/content-team/2021/3.jpg",
+      "bio": "",
+      "social": {
+        "medium": "",
+        "linkedin": "",
+        "github": "",
+        "twitter": ""
+      }
+    },
+    {
+      "name": "Prateek Agarwal",
+      "profile": "images/team/content-team/2021/4.jpg",
+      "bio": "",
+      "social": {
+        "medium": "",
+        "linkedin": "",
+        "github": "",
+        "twitter": ""
+      }
+    }
+  ],
   "2020": [
     {
       "name": "Shireen Soporee",
