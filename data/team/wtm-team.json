@@ -1,0 +1,27 @@
+{
+  "2021": [
+    {
+      "name": "Bhoomi Sharma",
+      "profile": "images/team/wtm-team/2021/1.jpg",
+      "bio": "",
+      "social": {
+        "medium": "",
+        "linkedin": "",
+        "github": "",
+        "twitter": ""
+      }
+    },
+    {
+      "name": "Simran Raj",
+      "profile": "images/team/wtm-team/2021/2.jpg",
+      "bio": "",
+      "social": {
+        "medium": "",
+        "linkedin": "",
+        "github": "",
+        "twitter": ""
+      }
+    }
+  ],
+  "2020": []
+}
