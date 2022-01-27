@@ -19,5 +19,8 @@
   },
   "Management Team": {
     "relativeLocation": "team/management-team.json"
+  },
+  "Outreach Team": {
+    "relativeLocation": "team/outreach-team.json"
   }
 }

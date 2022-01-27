@@ -1,0 +1,49 @@
+{
+  "2021": [
+    {
+      "name": "Nitin Gulwani",
+      "profile": "images/team/outreach-team/2021/1.jpg",
+      "bio": "",
+      "social": {
+        "medium": "",
+        "linkedin": "",
+        "github": "",
+        "twitter": ""
+      }
+    },
+    {
+      "name": "Souradip Ghosh",
+      "profile": "images/team/outreach-team/2021/2.jpg",
+      "bio": "",
+      "social": {
+        "medium": "",
+        "linkedin": "",
+        "github": "",
+        "twitter": ""
+      }
+    },
+    {
+      "name": "Pratap Pawar",
+      "profile": "images/team/outreach-team/2021/3.jpg",
+      "bio": "",
+      "social": {
+        "medium": "",
+        "linkedin": "",
+        "github": "",
+        "twitter": ""
+      }
+    },
+    {
+      "name": "Pritosh Thomas Zachariah",
+      "profile": "images/team/outreach-team/2021/4.jpg",
+      "bio": "",
+      "social": {
+        "medium": "",
+        "linkedin": "",
+        "github": "",
+        "twitter": ""
+      }
+    }
+  ],
+  "2020": []
+}
