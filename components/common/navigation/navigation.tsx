@@ -24,6 +24,7 @@ const NAV_ITEMS = [
   { title: "Team", link: "/team" },
   { title: "Articles", link: "/articles" },
   { title: "Events", link: "/events" },
+  { title: "Magazine", link: "/magazine" },
   { title: "Badges", link: "/badges" },
   { title: "Certificates", link: "/certificates" }
 ];
