@@ -1,5 +1,60 @@
 {
-  "2021": [],
+  "2021": [
+    {
+      "name": "Sanay Singh Rajawat",
+      "profile": "images/team/management-team/2021/1.jpg",
+      "bio": "",
+      "social": {
+        "medium": "",
+        "linkedin": "",
+        "github": "",
+        "twitter": ""
+      }
+    },
+    {
+      "name": "Anmol Garg",
+      "profile": "images/team/management-team/2021/2.jpg",
+      "bio": "",
+      "social": {
+        "medium": "",
+        "linkedin": "",
+        "github": "",
+        "twitter": ""
+      }
+    },
+    {
+      "name": "Chirayu Jaiswal",
+      "profile": "images/team/management-team/2021/3.jpg",
+      "bio": "",
+      "social": {
+        "medium": "",
+        "linkedin": "",
+        "github": "",
+        "twitter": ""
+      }
+    },
+    {
+      "name": "Riya Gandhi",
+      "profile": "images/team/management-team/2021/4.jpg",
+      "bio": "",
+      "social": {
+        "medium": "",
+        "linkedin": "",
+        "github": "",
+        "twitter": ""
+      }
+    },{
+      "name": "Ishita Agarwal",
+      "profile": "images/team/management-team/2021/5.jpg",
+      "bio": "",
+      "social": {
+        "medium": "",
+        "linkedin": "",
+        "github": "",
+        "twitter": ""
+      }
+    }
+  ],
   "2020": [
     {
       "name": "Aditi Kurutala",
