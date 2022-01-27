@@ -1,5 +1,50 @@
 {
-  "2021": [],
+  "2021": [
+    {
+      "name": "Miryala V R K Kautilya S Kumar",
+      "profile": "images/team/web-team/2021/1.jpg",
+      "bio": "",
+      "social": {
+        "medium": "",
+        "linkedin": "",
+        "github": "",
+        "twitter": ""
+      }
+    },
+    {
+      "name": "Tanmay Kachroo",
+      "profile": "images/team/web-team/2021/2.jpg",
+      "bio": "",
+      "social": {
+        "medium": "",
+        "linkedin": "",
+        "github": "",
+        "twitter": ""
+      }
+    },
+    {
+      "name": "Ananya Sharma",
+      "profile": "images/team/web-team/2021/3.jpg",
+      "bio": "",
+      "social": {
+        "medium": "",
+        "linkedin": "",
+        "github": "",
+        "twitter": ""
+      }
+    },
+    {
+      "name": "Kshitiz Agrawal",
+      "profile": "images/team/web-team/2021/4.jpg",
+      "bio": "",
+      "social": {
+        "medium": "",
+        "linkedin": "",
+        "github": "",
+        "twitter": ""
+      }
+    }
+  ],
   "2020": [
     {
       "name": "Saket Upadhyay",
