@@ -1,7 +1,7 @@
 {
   "2021": [
     {
-      "name": "Sanay Singh Rajawat",
+      "name": "Anmol Garg",
       "profile": "images/team/management-team/2021/1.jpg",
       "bio": "",
       "social": {
@@ -12,7 +12,7 @@
       }
     },
     {
-      "name": "Anmol Garg",
+      "name": "Chirayu Jaiswal",
       "profile": "images/team/management-team/2021/2.jpg",
       "bio": "",
       "social": {
@@ -23,7 +23,7 @@
       }
     },
     {
-      "name": "Chirayu Jaiswal",
+      "name": "Riya Gandhi",
       "profile": "images/team/management-team/2021/3.jpg",
       "bio": "",
       "social": {
@@ -34,7 +34,7 @@
       }
     },
     {
-      "name": "Riya Gandhi",
+      "name": "Ishita Agarwal",
       "profile": "images/team/management-team/2021/4.jpg",
       "bio": "",
       "social": {
@@ -43,8 +43,9 @@
         "github": "",
         "twitter": ""
       }
-    },{
-      "name": "Ishita Agarwal",
+    },
+    {
+      "name": "Sanay Singh Rajawat",
       "profile": "images/team/management-team/2021/5.jpg",
       "bio": "",
       "social": {
