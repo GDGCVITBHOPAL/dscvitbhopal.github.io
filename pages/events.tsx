@@ -35,7 +35,7 @@ const Event = () => {
 
   return (
     <>
-      <ContainerStyledFlex>
+      <ContainerStyledFlex minHeight="50vh">
         <Head>
           <title>DSC VIT Bhopal - Events</title>
         </Head>

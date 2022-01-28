@@ -1,10 +1,10 @@
-import { useEffect, useState } from 'react';
-import Head from 'next/head';
+import { useEffect, useState } from "react";
+import Head from "next/head";
 
 // Components
-import CertificateCard from '../../components/card/CertificateCard';
-import CommonFooter from '../../components/index/CommonFooter';
-import { ContainerStyledGrid } from '../../styles/ContainerStyledGrid';
+import CertificateCard from "../../components/card/CertificateCard";
+import CommonFooter from "../../components/index/CommonFooter";
+import { ContainerStyledGrid } from "../../styles/ContainerStyledGrid";
 
 type Certificate = {
   id?: string;
@@ -22,18 +22,20 @@ const Certificates = () => {
   const [certificates, setCertificates] = useState<Certificate[]>([]);
 
   useEffect(() => {
-    import('../../data/certificates-data.json').then((data: CertificatesData) => {
-      setCertificates(data.default.certificates);
-    });
+    import("../../data/certificates-data.json").then(
+      (data: CertificatesData) => {
+        setCertificates(data.default.certificates);
+      }
+    );
   }, []);
 
   return (
     <>
-      <ContainerStyledGrid>
+      <ContainerStyledGrid minHeight="50vh">
         <Head>
           <title>DSC VIT Bhopal - Certificates</title>
         </Head>
-        {certificates.map(certificate => (
+        {certificates.map((certificate) => (
           <CertificateCard key={certificate.id} {...certificate} />
         ))}
       </ContainerStyledGrid>
