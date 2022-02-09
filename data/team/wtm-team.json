@@ -2,7 +2,7 @@
   "2021": [
     {
       "name": "Bhoomi Sharma",
-      "profile": "images/team/wtm-team/2021/1.jpg",
+      "profile": "https://raw.githubusercontent.com/DSCVITBHOPAL/dscvitbhopal.github.io/master/public/images/team/wtm-team/2021/1.jpg",
       "bio": "",
       "social": {
         "medium": "",
@@ -13,7 +13,7 @@
     },
     {
       "name": "Simran Raj",
-      "profile": "images/team/wtm-team/2021/2.jpg",
+      "profile": "https://raw.githubusercontent.com/DSCVITBHOPAL/dscvitbhopal.github.io/master/public/images/team/wtm-team/2021/2.jpg",
       "bio": "",
       "social": {
         "medium": "",

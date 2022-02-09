@@ -1,9 +1,8 @@
 {
   "2021": [
-    
     {
       "name": "Adithya N Biya",
-      "profile": "images/team/content-team/2021/1.jpg",
+      "profile": "https://raw.githubusercontent.com/DSCVITBHOPAL/dscvitbhopal.github.io/master/public/images/team/content-team/2021/1.jpg",
       "bio": "",
       "social": {
         "medium": "",
@@ -14,7 +13,7 @@
     },
     {
       "name": "Akanksha Verma",
-      "profile": "images/team/content-team/2021/2.jpg",
+      "profile": "https://raw.githubusercontent.com/DSCVITBHOPAL/dscvitbhopal.github.io/master/public/images/team/content-team/2021/2.jpg",
       "bio": "",
       "social": {
         "medium": "",
@@ -25,7 +24,7 @@
     },
     {
       "name": "Prateek Agarwal",
-      "profile": "images/team/content-team/2021/3.jpg",
+      "profile": "https://raw.githubusercontent.com/DSCVITBHOPAL/dscvitbhopal.github.io/master/public/images/team/content-team/2021/3.jpg",
       "bio": "",
       "social": {
         "medium": "",
@@ -33,9 +32,10 @@
         "github": "",
         "twitter": ""
       }
-    },{
+    },
+    {
       "name": "Shireen Jain",
-      "profile": "images/team/content-team/2021/4.jpg",
+      "profile": "https://raw.githubusercontent.com/DSCVITBHOPAL/dscvitbhopal.github.io/master/public/images/team/content-team/2021/4.jpg",
       "bio": "",
       "social": {
         "medium": "",
