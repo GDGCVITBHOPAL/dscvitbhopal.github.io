@@ -1,5 +1,39 @@
 {
-  "2021": [],
+  "2021": [
+    {
+      "name": "G.Hemanth Sai",
+      "profile": "images/team/ml-team/2021/1.jpg",
+      "bio": "",
+      "social": {
+        "medium": "",
+        "linkedin": "",
+        "github": "",
+        "twitter": ""
+      }
+    },
+    {
+      "name": "Mayuresh Agashe",
+      "profile": "images/team/ml-team/2021/2.jpg",
+      "bio": "",
+      "social": {
+        "medium": "",
+        "linkedin": "",
+        "github": "",
+        "twitter": ""
+      }
+    },
+    {
+      "name": "Sayan Saha",
+      "profile": "images/team/ml-team/2021/3.jpg",
+      "bio": "",
+      "social": {
+        "medium": "",
+        "linkedin": "",
+        "github": "",
+        "twitter": ""
+      }
+    }
+  ],
   "2020": [
     {
       "name": "Aayush Mishra",

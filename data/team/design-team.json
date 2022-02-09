@@ -1,5 +1,61 @@
 {
-  "2021": [],
+  "2021": [
+    {
+      "name": "Aniket Choudhary",
+      "profile": "images/team/design-team/2021/1.jpg",
+      "bio": "",
+      "social": {
+        "medium": "",
+        "linkedin": "",
+        "github": "",
+        "twitter": ""
+      }
+    },
+    {
+      "name": "Parmeet Singh Banwait",
+      "profile": "images/team/design-team/2021/2.jpg",
+      "bio": "",
+      "social": {
+        "medium": "",
+        "linkedin": "",
+        "github": "",
+        "twitter": ""
+      }
+    },
+    {
+      "name": "Abhyuday Deshpande",
+      "profile": "images/team/design-team/2021/3.jpg",
+      "bio": "",
+      "social": {
+        "medium": "",
+        "linkedin": "",
+        "github": "",
+        "twitter": ""
+      }
+    },
+    {
+      "name": "Rohan Vinay Chaudhary",
+      "profile": "images/team/design-team/2021/4.jpg",
+      "bio": "",
+      "social": {
+        "medium": "",
+        "linkedin": "",
+        "github": "",
+        "twitter": ""
+      }
+    },
+    {
+      "name": "Tulip Aggarwal",
+      "profile": "images/team/design-team/2021/5.jpg",
+      "bio": "",
+      "social": {
+        "medium": "",
+        "linkedin": "",
+        "github": "",
+        "twitter": ""
+      }
+    }
+  ],
   "2020": [
     {
       "name": "Laavart",

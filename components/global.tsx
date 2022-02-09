@@ -2,11 +2,18 @@ import styled from "styled-components";
 
 export const Section = styled.section`
   padding: 5rem 0rem;
-  
 `;
 
-export const Container = styled.div`
+interface ContainerProps {
+  minHeight?: string;
+}
+export const Container = styled.div<ContainerProps>`
   margin: 0px auto;
+  ${({ minHeight }) =>
+    minHeight &&
+    `
+  min-height:${minHeight};`}
+
   /* Extra small devices (phones, 575px and down) */
   @media (max-width: ${(props) => props.theme.screen.xs}) {
     padding: 0rem 1rem;

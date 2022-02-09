@@ -52,7 +52,7 @@ const Team = () => {
 
   return (
     <>
-      <Container>
+      <Container minHeight="55vh">
         <Head>
           <title>DSC VIT Bhopal - Team</title>
         </Head>
