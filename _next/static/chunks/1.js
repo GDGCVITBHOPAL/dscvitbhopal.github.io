@@ -1,0 +1,14 @@
+(window["webpackJsonp_N_E"] = window["webpackJsonp_N_E"] || []).push([[1],{
+
+/***/ "./data/badges-data.json":
+/*!*******************************!*\
+  !*** ./data/badges-data.json ***!
+  \*******************************/
+/*! exports provided: badges, default */
+/***/ (function(module) {
+
+eval("module.exports = JSON.parse(\"{\\\"badges\\\":[{\\\"id\\\":\\\"1\\\",\\\"badge\\\":\\\"/images/badges/1.png\\\",\\\"name\\\":\\\"Chaitanya Sapre\\\"},{\\\"id\\\":\\\"2\\\",\\\"badge\\\":\\\"/images/badges/2.png\\\",\\\"name\\\":\\\"Tejani Shubham\\\"},{\\\"id\\\":\\\"3\\\",\\\"badge\\\":\\\"/images/badges/3.png\\\",\\\"name\\\":\\\"Chinmay Muley\\\"},{\\\"id\\\":\\\"4\\\",\\\"badge\\\":\\\"/images/badges/hacktober.png\\\",\\\"name\\\":\\\"Chaitanya Sapre\\\"},{\\\"id\\\":\\\"5\\\",\\\"badge\\\":\\\"/images/badges/hacktober.png\\\",\\\"name\\\":\\\"Aniket Agrawal\\\"},{\\\"id\\\":\\\"6\\\",\\\"badge\\\":\\\"/images/badges/hacktober.png\\\",\\\"name\\\":\\\"Rajat Kaushik\\\"},{\\\"id\\\":\\\"7\\\",\\\"badge\\\":\\\"/images/badges/hacktober.png\\\",\\\"name\\\":\\\"Sidhved Warik\\\"},{\\\"id\\\":\\\"8\\\",\\\"badge\\\":\\\"/images/badges/hacktober.png\\\",\\\"name\\\":\\\"Abhijeet Chatterjee\\\"},{\\\"id\\\":\\\"9\\\",\\\"badge\\\":\\\"/images/badges/hacktober.png\\\",\\\"name\\\":\\\"Anushka Agnihotri\\\"},{\\\"id\\\":\\\"10\\\",\\\"badge\\\":\\\"/images/badges/hacktober.png\\\",\\\"name\\\":\\\"Onkar Shaligram\\\"},{\\\"id\\\":\\\"11\\\",\\\"badge\\\":\\\"/images/badges/hacktober.png\\\",\\\"name\\\":\\\"Oorja Rungta\\\"},{\\\"id\\\":\\\"12\\\",\\\"badge\\\":\\\"/images/badges/hacktober.png\\\",\\\"name\\\":\\\"Aayush Mishra\\\"},{\\\"id\\\":\\\"13\\\",\\\"badge\\\":\\\"/images/badges/hacktober.png\\\",\\\"name\\\":\\\"Akshit Gupta\\\"},{\\\"id\\\":\\\"14\\\",\\\"badge\\\":\\\"/images/badges/hacktober.png\\\",\\\"name\\\":\\\"Harsh Pal\\\"},{\\\"id\\\":\\\"15\\\",\\\"badge\\\":\\\"/images/badges/hacktober.png\\\",\\\"name\\\":\\\"Hardik Kumar\\\"},{\\\"id\\\":\\\"16\\\",\\\"badge\\\":\\\"/images/badges/hacktober.png\\\",\\\"name\\\":\\\"Nishant Mishra\\\"},{\\\"id\\\":\\\"17\\\",\\\"badge\\\":\\\"/images/badges/ml-book-nov/1.png\\\",\\\"name\\\":\\\"Hemant Sai\\\"},{\\\"id\\\":\\\"18\\\",\\\"badge\\\":\\\"/images/badges/ml-book-nov/2.png\\\",\\\"name\\\":\\\"Shivam Sharma\\\"},{\\\"id\\\":\\\"19\\\",\\\"badge\\\":\\\"/images/badges/ml-book-nov/3.png\\\",\\\"name\\\":\\\"Nikhil Chaurasiya\\\"}]}\");//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiIuL2RhdGEvYmFkZ2VzLWRhdGEuanNvbi5qcyIsInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./data/badges-data.json\n");
+
+/***/ })
+
+}]);
